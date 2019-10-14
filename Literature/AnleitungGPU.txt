@@ -1,0 +1,5 @@
+GPU usage:
+TensorFlow code, and tf.keras models will transparently run on a single GPU with no code changes required.
+Note: Use tf.config.experimental.list_physical_devices('GPU') to confirm that TensorFlow is using the GPU.
+CUDA samples:
+C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1
