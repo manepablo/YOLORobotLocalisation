@@ -16,33 +16,46 @@ import random
 # 3)
 for i in range(0,10):
     plt.figure("Figure " + str(i+1))
+    plt.title("Example: " + str(i+1))
     plt.imshow(x_train[i,:,:], cmap= 'gray_r') 
 
 # 4) 
+
 plt.figure('Training data distribution')
+plt.title('Training data distribution')
 fig = plt.hist(y_train, bins = np.arange(11) - 0.5, histtype='bar' ,rwidth = 0.5)
 plt.xticks(range(10))
+
+
 plt.figure('Test data distribution')
+plt.title('Test data distribution')
 plt.hist(y_test, bins = np.arange(11) - 0.5, histtype='bar' ,rwidth = 0.5)
 plt.xticks(range(10))
 # 5)
+
 average_image = x_train.mean(0)
 plt.figure('Mean Picture')
+plt.title('Average Image')
 plt.imshow(average_image, cmap= 'gray_r') 
+
 # 6)
 for i in range(0,10):
     
     img = x_train[y_train == i][random.randint(0,len(x_train[y_train == i])-1),:,:]
-    img_average = img -average_image
+    img_average = img - average_image
         
     # get some image
     plt.figure(i)
+    plt.title('Class ' + str(i) + ' - Average Image')
     plt.imshow(img_average, cmap= 'gray_r') 
 
     plt.figure(i+100)
-    plt.hist(img_average.flatten())
-    plt.figure(i+200) 
+    plt.title('Hist of class ' + str(i))
     plt.hist(img.flatten())
+    
+    plt.figure(i+200)
+    plt.title('Hist of class ' + str(i) + ' - average img')
+    plt.hist(img_average.flatten())
     
 from keras.models import Sequential
 from keras.layers import Dense, Activation
@@ -58,10 +71,11 @@ import gc
 flat_img_average = img_average.flatten()
 
 flat_input_train = np.reshape(x_train,(len(x_train),-1))
-flat_input_train_minus_averaged = np.subtract(flat_input_train,flat_img_average)
+flat_input_train_minus_avrg = flat_input_train - flat_img_average
+
 
 flat_input_test = np.reshape(x_test,(len(x_test),-1))
-flat_input_test_minus_averaged = np.subtract(flat_input_test,flat_img_average)
+flat_input_test_minus_avrg = flat_input_test - flat_img_average
 
 #8)
 def create_model():
@@ -76,12 +90,13 @@ def create_model():
     return model
 
 # 9)
-y_train_cat = ...
-y_test_cat = ...
+y_train_cat = to_categorical(y_train)
+y_test_cat = to_categorical(y_test)
 
 # 10)
-optimizers_to_test = ["rmsprop"]
+optimizers_to_test = ["rmsprop","sgd",'adagrad', 'adadelta', 'adam', 'adamax', 'nadam']
 for optimizer in optimizers_to_test:
+    print(optimizer)
     model = create_model()
     
     model.compile(optimizer=optimizer,
@@ -89,23 +104,23 @@ for optimizer in optimizers_to_test:
                   metrics=['accuracy'])
     
     hist = model.fit(flat_input_train,y_train_cat,validation_data=\
-              (flat_input_test,y_test_cat),epochs=15)
+              (flat_input_test,y_test_cat),epochs=10)
     
     plt.figure(999)
     plt.plot(hist.history["loss"])
-    plt.title("Training Loss")
+    plt.title("Training Loss - " + optimizer)
     
     plt.figure(998)
     plt.plot(hist.history["val_loss"])
-    plt.title("Validation Loss")
+    plt.title("Validation Loss - " + optimizer)
     
     plt.figure(888)
-    plt.plot(hist.history["acc"])
-    plt.title("Trainings Accuracy")
+    plt.plot(hist.history["accuracy"])
+    plt.title("Trainings Accuracy - " + optimizer)
     
     plt.figure(887)
-    plt.plot(hist.history["val_acc"])
-    plt.title("Validation Accuracy")
+    plt.plot(hist.history["val_accuracy"])
+    plt.title("Validation Accuracy - " + optimizer)
 
     del hist
     del model
@@ -121,43 +136,46 @@ plt.legend(optimizers_to_test)
 plt.figure(887)
 plt.legend(optimizers_to_test)
 
-# 11)
+## 11)
+# durchführung mit flat_input_train_minus_avrg
+optimizers_to_test = ["rmsprop","sgd",'adagrad', 'adadelta', 'adam', 'adamax', 'nadam']
 for optimizer in optimizers_to_test:
+    print(optimizer)
     model = create_model()
     
     model.compile(optimizer=optimizer,
                   loss='categorical_crossentropy',
                   metrics=['accuracy'])
     
-    hist = ....
+    hist = model.fit(flat_input_train_minus_avrg,y_train_cat,validation_data=\
+              (flat_input_test_minus_avrg,y_test_cat),epochs=10)
     
     plt.figure(999)
     plt.plot(hist.history["loss"])
-    plt.title("Training Loss")
+    plt.title("Training Loss " )
     
     plt.figure(998)
     plt.plot(hist.history["val_loss"])
-    plt.title("Validation Loss")
+    plt.title("Validation Loss " )
     
     plt.figure(888)
-    plt.plot(hist.history["acc"])
-    plt.title("Trainings Accuracy")
+    plt.plot(hist.history["accuracy"])
+    plt.title("Trainings Accuracy  ")
     
     plt.figure(887)
-    plt.plot(hist.history["val_acc"])
-    plt.title("Validation Accuracy")
+    plt.plot(hist.history["val_accuracy"])
+    plt.title("Validation Accuracy ")
 
     del hist
     del model
     K.clear_session()
     gc.collect()
 
-new_legend = optimizers_to_test + [i + " mean" for i in optimizers_to_test]
 plt.figure(999)
-plt.legend(new_legend)
+plt.legend(optimizers_to_test)
 plt.figure(998)
-plt.legend(new_legend)
+plt.legend(optimizers_to_test)
 plt.figure(888)
-plt.legend(new_legend)
+plt.legend(optimizers_to_test)
 plt.figure(887)
-plt.legend(new_legend)
+plt.legend(optimizers_to_test)
