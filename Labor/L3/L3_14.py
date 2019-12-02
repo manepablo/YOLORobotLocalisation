@@ -81,19 +81,19 @@ hist = model.fit(x_train,y_train_cat,validation_data=\
 
 plt.figure(999)
 plt.plot(hist.history["loss"])
-plt.title("Training Loss - " + optimizer)
+plt.title("Training Loss - ")
 
 plt.figure(998)
 plt.plot(hist.history["val_loss"])
-plt.title("Validation Loss - " + optimizer)
+plt.title("Validation Loss - " )
 
 plt.figure(888)
 plt.plot(hist.history["accuracy"])
-plt.title("Trainings Accuracy - " + optimizer)
+plt.title("Trainings Accuracy - ")
 
 plt.figure(887)
 plt.plot(hist.history["val_accuracy"])
-plt.title("Validation Accuracy - " + optimizer)
+plt.title("Validation Accuracy - ")
 
 del hist
 K.clear_session()
