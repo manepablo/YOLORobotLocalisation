@@ -1,0 +1,6 @@
+
+1. Git Repo und Model/ Vorgehen:
+https://towardsdatascience.com/getting-started-with-bounding-box-regression-in-tensorflow-743e22d0ccb3
+
+2. Custom Loss und IoU:
+https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/
