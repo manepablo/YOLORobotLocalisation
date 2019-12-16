@@ -1,0 +1,10 @@
+% Encoding: UTF-8
+
+@InProceedings{Rezatofighi1902,
+  author = {Hamid Rezatofighi and 2 Nathan Tsoi1 JunYoung Gwak1 Amir Sadeghian},
+  title  = {Generalized Intersection over Union: A Metric and A Loss for Bounding Box Regression},
+  year   = {1902},
+  file   = {:C\:\\DLM\\Documentation\\interception_over_union.pdf:PDF},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
