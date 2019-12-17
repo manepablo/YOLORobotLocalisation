@@ -4,3 +4,6 @@ https://towardsdatascience.com/getting-started-with-bounding-box-regression-in-t
 
 2. Custom Loss und IoU:
 https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/
+
+3. 3D IOU, 3 Vorschläge:
+https://towardsdatascience.com/geometric-reasoning-based-cuboid-generation-in-monocular-3d-object-detection-5ee2996270d1
