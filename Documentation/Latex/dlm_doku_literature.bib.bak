@@ -107,4 +107,12 @@ of known household objects in clutter by a real robot.1},
   isbn      = {3958457002},
 }
 
+@Book{dlazure2019,
+  title     = {Deep Learning mit Microsoft Azure},
+  publisher = {Rheinwerk Computing},
+  year      = {2019},
+  author    = {Mathew Salvaris, Danielle Dean, Wee Hyong Tok},
+  editor    = {Dr. Christoph Meister},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
