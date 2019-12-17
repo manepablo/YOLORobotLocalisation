@@ -1,0 +1,2 @@
+1. Einleitung+ State of the Art: Tim
+2. Methoden+Ergebnisse: Paul (TiPP: L1 Error als accuracy maﬂ bei 3D / bei 2D: IOU)
