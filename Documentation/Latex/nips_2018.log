@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=latex 2019.11.9)  16 DEC 2019 16:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.9)  17 DEC 2019 14:51
 entering extended mode
 **./nips_2018.tex
 (nips_2018.tex
@@ -122,7 +122,7 @@ Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package pdftexcmds Info: \pdfdraftmode found.
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
@@ -195,22 +195,13 @@ LaTeX Info: Redefining \pageref on input line 6497.
 \c@Item=\count98
 \c@Hfootnote=\count99
 )
-Package hyperref Info: Driver (default): hdvips.
+Package hyperref Info: Driver (autodetected): hpdftex.
 
 ("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\h
-dvips.def"
-File: hdvips.def 2019/09/28 v7.00a Hyperref driver for dvips
-
-("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\p
-dfmark.def"
-File: pdfmark.def 2019/09/28 v7.00a Hyperref definitions for pdfmark specials
-\pdf@docset=\toks18
-\pdf@box=\box27
-\pdf@toks=\toks19
-\pdf@defaulttoks=\toks20
-\HyField@AnnotCount=\count100
-\Fld@listcount=\count101
-\c@bookmark@seq@number=\count102
+pdftex.def"
+File: hpdftex.def 2019/09/28 v7.00a Hyperref driver for pdfTeX
+\Fld@listcount=\count100
+\c@bookmark@seq@number=\count101
 
 ("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\r
 erunfilecheck.sty"
@@ -219,7 +210,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip47
-))
+)
 ("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\b
 ooktabs.sty"
 Package: booktabs 2019/10/08 v1.6180339 publication quality tables
@@ -233,18 +224,18 @@ Package: booktabs 2019/10/08 v1.6180339 publication quality tables
 \cmidrulesep=\dimen122
 \cmidrulekern=\dimen123
 \defaultaddspace=\dimen124
-\@cmidla=\count103
-\@cmidlb=\count104
+\@cmidla=\count102
+\@cmidlb=\count103
 \@aboverulesep=\dimen125
 \@belowrulesep=\dimen126
-\@thisruleclass=\count105
-\@lastruleclass=\count106
+\@thisruleclass=\count104
+\@lastruleclass=\count105
 \@thisrulewidth=\dimen127
 )
 ("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\a
 msfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks21
+\@emptytoks=\toks18
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
@@ -265,12 +256,12 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\
 microtype.sty"
 Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
-\MT@toks=\toks22
-\MT@count=\count107
+\MT@toks=\toks19
+\MT@count=\count106
 LaTeX Info: Redefining \textls on input line 790.
 \MT@outer@kern=\dimen128
 LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
-\MT@listname@count=\count108
+\MT@listname@count=\count107
 
 ("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\
 microtype-pdftex.def"
@@ -288,21 +279,21 @@ File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
 )) (nips_2018.aux)
 \openout1 = `nips_2018.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 64
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 65
 .
 
 ("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1p
@@ -310,9 +301,9 @@ tm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 *geometry* driver: auto-detecting
-*geometry* detected driver: dvips
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: dvips
+* driver: pdftex
 * paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -344,7 +335,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 *geometry* verbose mode - [ newgeometry ] result:
-* driver: dvips
+* driver: pdftex
 * paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -375,8 +366,8 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box28
-Package hyperref Info: Link coloring OFF on input line 64.
+\AtBeginShipoutBox=\box27
+Package hyperref Info: Link coloring OFF on input line 65.
 
 ("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\n
 ameref.sty"
@@ -386,24 +377,23 @@ Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 \gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count109
+\c@section@level=\count108
 )
-LaTeX Info: Redefining \ref on input line 64.
-LaTeX Info: Redefining \pageref on input line 64.
-LaTeX Info: Redefining \nameref on input line 64.
+LaTeX Info: Redefining \ref on input line 65.
+LaTeX Info: Redefining \pageref on input line 65.
+LaTeX Info: Redefining \nameref on input line 65.
  (nips_2018.out) (nips_2018.out)
 \@outlinefile=\write3
 \openout3 = `nips_2018.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
-LaTeX Info: Redefining \microtypecontext on input line 64.
-Package microtype Info: Generating DVI output.
+LaTeX Info: Redefining \microtypecontext on input line 65.
+Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: No font expansion.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+LaTeX Info: Redefining \showhyphens on input line 65.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -413,14 +403,14 @@ mt-ptm.cfg"
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 68.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 69.
 
 ("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\
 mt-cmr.cfg"
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 68.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 69.
 
 
 ("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\u
@@ -431,7 +421,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 mt-msa.cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 68.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 69.
 
 
 ("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\u
@@ -443,14 +433,14 @@ mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 68.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 69.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 70.
- (nips_2018.bbl
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 71.
+ [1
 
-Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
-)
+{C:/Users/TimEisenacher/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (ei
+nleitung.tex) (standdertechnik.tex) (nips_2018.bbl [2])
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
 43.
 
@@ -462,27 +452,38 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [1
-
-
-]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
- [2]
+ [3] [4]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
  (nips_2018.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 169.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
 Package rerunfilecheck Info: File `nips_2018.out' has not changed.
-(rerunfilecheck)             Checksum: 08EED6CE49F41BFE5FC200D3E35E5553;691.
+(rerunfilecheck)             Checksum: 120834869B408939E081DFF1A11A17D4;849.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
  ) 
 Here is how much of TeX's memory you used:
- 7197 strings out of 492453
- 114122 string characters out of 3116354
- 245313 words of memory out of 3000000
- 11492 multiletter control sequences out of 15000+200000
- 19791 words of font info for 32 fonts, out of 3000000 for 9000
+ 7330 strings out of 492452
+ 115419 string characters out of 3116328
+ 238907 words of memory out of 3000000
+ 11474 multiletter control sequences out of 15000+200000
+ 31999 words of font info for 108 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 33i,8n,42p,245b,382s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 33i,8n,42p,1025b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\TimEisenacher\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec
+/dpi600\ectt1000.pk>{C:/Users/TimEisenacher/AppData/Local/Programs/MiKTeX 2.9/f
+onts/enc/dvips/base/8r.enc}<C:/Users/TimEisenacher/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/TimEisenacher/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/T
+imEisenacher/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr7.pfb><C:/Users/TimEisenacher/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><C:/Users/TimEisenacher/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/TimEisenacher/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/TimEisenacher/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on nips_2018.pdf (4 pages, 105396 bytes).
+PDF statistics:
+ 156 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
+ 18545 words of extra memory for PDF output out of 20736 (max. 10000000)
 
-Output written on nips_2018.dvi (2 pages, 8932 bytes).

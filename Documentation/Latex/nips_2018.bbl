@@ -1,3 +1,47 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{Abstract2016}
+Abstract and :.
+\newblock Deep learning for medical image processing: Overview, challenges and
+  future muhammad imran razzak, saeeda naz and ahmad zaib.
+\newblock 2016.
+
+\bibitem{Atiqur}
+Md~Atiqur, Rahman, Yang, and Wang.
+\newblock Optimizing intersection-over-union in deep neural networks for image
+  segmentation.
+\newblock 2015.
+
+\bibitem{Cruz-Roa2017}
+Angel Cruz-Roa, Hannah Gilmore, Ajay Basavanhally, Michael Feldman, Shridar
+  Ganesan, Natalie~N.C. Shih, John Tomaszewski, Fabio~A. Gonz{\'{a}}lez, and
+  Anant Madabhushi.
+\newblock Accurate and reproducible invasive breast cancer detection in
+  whole-slide images: A deep learning approach for quantifying tumor extent.
+\newblock {\em Scientific Reports}, 7(1), apr 2017.
+
+\bibitem{dlbook2018}
+Aaron~Courville Ian~Goodfellow, Yoshua~Bengio.
+\newblock {\em Deep Learning. Das umfassende Handbuch: Grundlagen, aktuelle
+  Verfahren und Algorithmen, neue Forschungsansätze (mitp Professional)}.
+\newblock mitp Professionals, 2018.
+
+\bibitem{Ouyang2014}
+Wanli Ouyang, Xiaogang Wang, Xingyu Zeng, Shi Qiu, Ping Luo, Yonglong Tian,
+  Hongsheng Li, Shuo Yang, Zhe Wang, Chen-Change Loy, and Xiaoou Tang.
+\newblock Deepid-net: Deformable deep convolutional neural networks for object
+  detection.
+\newblock 2014.
+
+\bibitem{Surgery1803}
+Robot-Assisted Surgery, Using Deep, and Learning.
+\newblock Automatic instrument segmentation in.
+\newblock 2018.
+
+\bibitem{Tremblay1809}
+Jonathan Tremblay, Thang To, and Balakumar Sundaralingam.
+\newblock Deep object pose estimation for semantic robotic grasping of
+  household objects.
+\newblock 2018.
 
 \end{thebibliography}

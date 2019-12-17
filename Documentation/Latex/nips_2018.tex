@@ -26,7 +26,7 @@
 \usepackage{nicefrac}       % compact symbols for 1/2, etc.
 \usepackage{microtype}      % microtypography
 
-\title{DLM Semesterprojekt}
+\title{DLM Semesterprojekt: Bestimmung der 3D-Boundingbox eines Roboters}
 
 % The \author macro works with any number of authors. There are two commands
 % used to separate the names and addresses of multiple authors: \And and \AND.
@@ -37,7 +37,8 @@
 % \AND instead of \And before the third author name.
 
 \author{%
-  GruppeNR, Name, MatrikelNR, E-Mail \\
+  GruppeNR: 1, Namen: Tim Eisenacher (1870755) und Paul Manea() \\
+  EMail: 1870755@stud.hs-mannheim.de
   % examples of more authors
   % \And
   % Coauthor \\
@@ -68,14 +69,13 @@
 
 
 \begin{abstract}
-	This Latex and Style file are modified versions from NeurIPS 2018.
+	This Latex and Style file are modified versions from NeurIPS 2018.\citep{Atiqur}
 	
 \end{abstract}
+\newpage
+\input{einleitung.tex} 
 
-\section{Einleitung}
-
-
-\section{State of the Art}
+\input{standdertechnik.tex}
 
 
 
@@ -109,7 +109,7 @@ Vielleicht ganz kurz
 \subsection{Citations}
 
 \bibliographystyle{plain}
-\bibliography{dlmref}
+\bibliography{dlm_doku_literature}
 
 
 \subsection{Footnotes}

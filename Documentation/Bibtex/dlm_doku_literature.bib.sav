@@ -1,0 +1,102 @@
+% Encoding: UTF-8
+
+@InProceedings{Rezatofighi1902,
+  author = {Hamid Rezatofighi and 2 Nathan Tsoi1 JunYoung Gwak1 Amir Sadeghian},
+  title  = {Generalized Intersection over Union: A Metric and A Loss for Bounding Box Regression},
+  year   = {2019},
+  file   = {:C\:\\DLM\\Documentation\\interception_over_union.pdf:PDF},
+}
+
+@InProceedings{Atiqur,
+  author   = {Md Atiqur and Rahman and Yang and Wang},
+  title    = {Optimizing Intersection-Over-Union in Deep Neural Networks for Image Segmentation},
+  year     = {2015},
+  abstract = {We consider the problem of learning deep neural networks (DNNs)
+for object category segmentation, where the goal is to label each pixel
+in an image as being part of a given object (foreground) or not (back-
+ground). Deep neural networks are usually trained with simple loss func-
+tions (e.g., softmax loss). These loss functions are appropriate for stan-
+dard classification problems where the performance is measured by the
+overall classification accuracy. For object category segmentation, the two
+classes (foreground and background) are very imbalanced. The intersection-
+over-union (IoU) is usually used to measure the performance of any ob-
+ject category segmentation method. In this paper, we propose an ap-
+proach for directly optimizing this IoU measure in deep neural networks.
+Our experimental results on two object category segmentation datasets
+demonstrate that our approach outperforms DNNs trained with standard
+softmax loss.},
+  file     = {:C\:\\DLM\\Documentation\\Optimizing_Intersection-Over-Union .pdf:PDF},
+}
+
+@InProceedings{Tekin1711,
+  author   = {Bugra Tekin and Sudipta N. Sinha and Pascal Fua and EPFL Microsoft and Research EPFL},
+  title    = {Real-Time Seamless Single Shot 6D Object Pose Prediction},
+  year     = {2018},
+  abstract = {the object and another to predict the 2D locations of the
+projections of the object’s 3D bounding box given the seg-},
+  file     = {:C\:\\DLM\\Documentation\\1711.08848.pdf:PDF},
+}
+
+@InProceedings{Tremblay1809,
+  author   = {Jonathan Tremblay and Thang To and Balakumar Sundaralingam},
+  title    = {Deep Object Pose Estimation for Semantic Robotic Grasping of Household Objects},
+  year     = {2018},
+  abstract = {Using synthetic data for training deep neural networks for robotic manipulation
+holds the promise of an almost unlimited amount of pre-labeled training data,
+generated safely out of harm’s way. One of the key challenges of synthetic data,
+to date, has been to bridge the so-called reality gap, so that networks trained on
+synthetic data operate correctly when exposed to real-world data. We explore the
+reality gap in the context of 6-DoF pose estimation of known objects from a single
+RGB image. We show that for this problem the reality gap can be successfully
+spanned by a simple combination of domain randomized and photorealistic data.
+Using synthetic data generated in this manner, we introduce a one-shot deep neural
+network that is able to perform competitively against a state-of-the-art network
+trained on a combination of real and synthetic data. To our knowledge, this is the
+first deep network trained only on synthetic data that is able to achieve state-of-the-
+art performance on 6-DoF object pose estimation. Our network also generalizes
+better to novel environments including extreme lighting conditions, for which we
+show qualitative results. Using this network we demonstrate a real-time system
+estimating object poses with sufficient accuracy for real-world semantic grasping
+of known household objects in clutter by a real robot.1},
+  file     = {:C\:\\DLM\\Documentation\\1809.10790.pdf:PDF},
+  keywords = {computer vision, pose estimation, synthetic data, randomization},
+}
+
+@InProceedings{Surgery1803,
+  author   = {Robot-Assisted Surgery and Using Deep and Learning},
+  title    = {Automatic Instrument Segmentation in},
+  year     = {2018},
+  abstract = {Semantic segmentation of robotic instruments is an impor-},
+  file     = {:C\:\\DLM\\Documentation\\machine_learning_robot_surgery.pdf:PDF},
+  keywords = {Medical imaging, Robot-assisted surgery, Computer vision, Image segmentation, Deep learning},
+}
+
+@InProceedings{Abstract2016,
+  author = {Abstract and :},
+  title  = {Deep Learning for Medical Image Processing: Overview, Challenges and Future Muhammad Imran Razzak, Saeeda Naz and Ahmad Zaib},
+  year   = {2016},
+  file   = {:C\:\\DLM\\Documentation\\dlinmedicine.pdf:PDF},
+}
+
+@InProceedings{Ouyang2014,
+  author   = {Wanli Ouyang and Xiaogang Wang and Xingyu Zeng and Shi Qiu and Ping Luo and Yonglong Tian and Hongsheng Li and Shuo Yang and Zhe Wang and Chen-Change Loy and Xiaoou Tang},
+  title    = {DeepID-Net: Deformable Deep Convolutional Neural Networks for Object Detection},
+  year     = {2014},
+  abstract = {Pretrained on object-level annoation Pretrained on image-level annotation},
+  file     = {:C\:\\DLM\\Documentation\\Ouyang_DeepID-Net_Deformable_Deep_2015_CVPR_paper.pdf:PDF},
+}
+
+@Article{Cruz-Roa2017,
+  author    = {Angel Cruz-Roa and Hannah Gilmore and Ajay Basavanhally and Michael Feldman and Shridar Ganesan and Natalie N.C. Shih and John Tomaszewski and Fabio A. Gonz{\'{a}}lez and Anant Madabhushi},
+  title     = {Accurate and reproducible invasive breast cancer detection in whole-slide images: A Deep Learning approach for quantifying tumor extent},
+  journal   = {Scientific Reports},
+  year      = {2017},
+  volume    = {7},
+  number    = {1},
+  month     = {apr},
+  doi       = {10.1038/srep46450},
+  file      = {:C\:\\DLM\\Documentation\\Brest_cancer_detection.pdf:PDF},
+  publisher = {Springer Science and Business Media {LLC}},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
