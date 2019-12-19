@@ -1,11 +1,5 @@
 \begin{thebibliography}{1}
 
-\bibitem{Abstract2016}
-Abstract and :.
-\newblock Deep learning for medical image processing: Overview, challenges and
-  future muhammad imran razzak, saeeda naz and ahmad zaib.
-\newblock 2016.
-
 \bibitem{Atiqur}
 Md~Atiqur, Rahman, Yang, and Wang.
 \newblock Optimizing intersection-over-union in deep neural networks for image
@@ -20,11 +14,28 @@ Angel Cruz-Roa, Hannah Gilmore, Ajay Basavanhally, Michael Feldman, Shridar
   whole-slide images: A deep learning approach for quantifying tumor extent.
 \newblock {\em Scientific Reports}, 7(1), apr 2017.
 
+\bibitem{Goodfellow-et-al-2016}
+Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+\newblock {\em Deep Learning}.
+\newblock MIT Press, 2016.
+\newblock \url{http://www.deeplearningbook.org}.
+
 \bibitem{dlbook2018}
 Aaron~Courville Ian~Goodfellow, Yoshua~Bengio.
 \newblock {\em Deep Learning. Das umfassende Handbuch: Grundlagen, aktuelle
   Verfahren und Algorithmen, neue Forschungsansätze (mitp Professional)}.
 \newblock mitp Professionals, 2018.
+
+\bibitem{dlazure2019}
+Wee Hyong~Tok Mathew~Salvaris, Danielle~Dean.
+\newblock {\em Deep Learning mit Microsoft Azure}.
+\newblock Rheinwerk Computing, 2019.
+
+\bibitem{Abstract2016}
+Ahmad~Zaib Muhammad Imran~Razzak, Saeeda~Naz.
+\newblock Deep learning for medical image processing: Overview, challenges and
+  future.
+\newblock 2016.
 
 \bibitem{Ouyang2014}
 Wanli Ouyang, Xiaogang Wang, Xingyu Zeng, Shi Qiu, Ping Luo, Yonglong Tian,
