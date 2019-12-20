@@ -1,33 +1,36 @@
 \section{Grundlagen und Stand der Technik}
 
-Salvaris beschreibt \textit{Machine Learning} als einen Zweig der Computerwissenschaften, bei dem Computern beigebracht wird anhand von Trainingsdaten Entscheidungen zu treffen. Typische Anwendungsgebiete des ML sind Klassifikation, Regression und Clustering. DL ist ein Teilgebiet des ML bei dem besonders komplexe Neuronale Netze mit vielen Schichten und Neuronen Verwendung finden. Ein weitere wesentliche Abgrenzung stellt die Merkmalsextraktion dar. Also die Extraktion der Eigenschaften eines Objekts, die ausschlaggebend für etwaige Klassenzugehörigkeiten sind. Diese entscheidenden Merkmale müssen dem DL-Modell nicht vorgegeben werden, sondern werden von dem Algorithmus selbst gefunden. Dieser Umstand stellt mit die größten Herausforderungen aber auch Chancen beim DL dar \cite[S.32-47]{dlazure2019}.  Im Folgenden werden nur die für die vorliegende Arbeit besonders relevanten und speziell angepassten Methoden und Aspekte des DL erläutert. Für weiterführende grundlegende Informationen zum Beispiel zu Neuronen, Schichttypen, Aktivierungsfunktionen und zum Gradientenabstiegsverfahren wird auf \cite{dlbook2018} verwiesen. 
-\begin{figure}[!h]\label{dlmlunterschied}
+Salvaris beschreibt \textit{Machine Learning} als einen Zweig der Computerwissenschaften, bei dem Computern beigebracht wird anhand von Trainingsdaten Entscheidungen zu treffen. Typische Anwendungsgebiete des ML sind Klassifikation, Regression und Clustering. DL ist ein Teilgebiet des ML (Abb. \ref{dlmlunterschied}) bei dem besonders komplexe Neuronale Netze mit vielen Schichten und Neuronen Verwendung finden. Ein weitere wesentliche Abgrenzung stellt die Merkmalsextraktion dar. Also die Extraktion der Eigenschaften eines Objekts, die ausschlaggebend für etwaige Klassenzugehörigkeiten sind. Diese entscheidenden Merkmale müssen dem DL-Modell nicht vorgegeben werden, sondern werden von dem Algorithmus selbst gefunden. Dieser Umstand stellt mit die größten Herausforderungen aber auch Chancen beim DL dar \cite[S.32-47]{dlazure2019}.  Im Folgenden werden nur die für die vorliegende Arbeit besonders relevanten und speziell angepassten Methoden und Aspekte des DL erläutert. Für weiterführende grundlegende Informationen zum Beispiel zu Neuronen, Schichttypen, Aktivierungsfunktionen und zum Gradientenabstiegsverfahren wird auf \cite{dlbook2018} verwiesen. 
+\begin{figure}[!h]
   \centering
   \includegraphics[width=8cm]{mldlunterschied.png}
   \caption{Abgrenzung Deep Learning zu Machine Learning.}
+  \label{dlmlunterschied}
 \end{figure}
 
 \subsection{Convolutional Neural Networks}
 
 \textit{Convolutional Neural Networks} (CNN) sind eine spezielle Art von Neuronalen Netzen, die sich für das verarbeiten von gitterartig beschaffenen Daten eignen. Hierzu zählen zum Beispiel auch Bilddaten, deren Pixelraster sich als Gitter oder Matrix interpretieren lassen. Ein typisches CNN besteht dabei aus einem oder mehreren Paaren von \textit{Convolutional}- und \textit{Pooling-Layern}, gefolgt von einem oder mehreren \textit{Fully-Connected-Layern}. Die Folgenden Darstellungen richten sich im wesentlichen nach Goodfellow \cite[S.326-366]{Goodfellow-et-al-2016}
 \paragraph{Convolutional Layer}
-Bei einem \textit{Convolutional Layer} wird schrittweise ein Filterkernel $K$ über eine Eingabematrix $I$ mit den Dimensionen $n$ und $m$ bewegt (Abb. \ref{dlmlunterschied}). Der Input der folgenden Neuronen $S(i,j)$ berechnet sich dann aus einer Faltungsoperation der jeweils übereinanderliegenden Kernel- und Bildelemente (Gleichung \ref{convolution}). 
+Bei einem \textit{Convolutional Layer} wird schrittweise ein Filterkernel $K$ über eine Eingabematrix $I$ mit den Dimensionen $n$ und $m$ bewegt (Abb. \ref{cnns}). Der Input der folgenden Neuronen $S(i,j)$ berechnet sich dann aus einer Faltungsoperation der jeweils übereinanderliegenden Kernel- und Bildelemente (Gleichung \ref{convolution}). 
 \begin{equation}\label{convolution}
 	S(i,j)=(I\ast K)(i,j)=\sum_{n}\sum_{n} I(i-m,j-n)K(m,n)
 \end{equation}
 Der so berechnete Input eines Neurons wird anschließend abhängig von der verwendeten Aktivierungsfunkton in den Output verwandelt. Zu bemerken ist, dass alle Neuronen eines \textit{Convolutional Layers} die gleichen Gewichte haben (sog. \textit{Parameter Sharing}). Dadurch ist es möglich Speicher gegenüber anderen Netzstrukturen einzusparen, die häufig eine große Gewichtungsmatrix verwenden. Ein weiterer großer Vorteil sind die sog. \textit{Sparse Interarctions}. Durch die Verwendung eines Filterkernels der meist nur einen Bruchteil der Größe des zu analysierenden Bildes aufweist, werden nur die Features extrahiert, die wirklich entscheidend sind für die Zugehörigkeit zu einer Klasse. Dies führt ebenso zu einer weiteren Speicher- und Performanzoptimierung.
-\begin{figure}[h!]\label{dlmlunterschied}
+\begin{figure}[h!]
   \centering
   \includegraphics[width=12cm]{cnn_prinzip.png}
   \caption{Prinzip eines Convolutional Layers \cite[S.330]{Goodfellow-et-al-2016}.}
+  \label{cnns}
 \end{figure}
 \paragraph{Pooling Layer}
 
 \textit{Pooling Layer} sorgen dafür, dass Features einer Klasse in einem Bild nahezu ortsinvariant gelernt werden können. Ein weitverbreitetes Pooling Verfahren ist das sog. $2X2$ \textit{Max-Pooling}, bei dem aus jedem $2X2$ Quadrat der Neuronen des \textit{Convolutional-Layers} nur das aktivste Neuron an die nächste Schicht weitergeleitet wird. Abbildung \ref{poolinglayer} verdeutlicht dieses Funktionsprinzip. Es werden von den jeweils benachbarten Neuronen nur die mit den höchsten Gewichten an die nächste Schicht durchgeschaltet.
-\begin{figure}[!h]\label{poolinglayer}
+\begin{figure}[!h]
   \centering
   \includegraphics[width=12cm]{pooling_layer.png}
   \caption{Prinzip eines Pooling Layers \cite[S.337]{Goodfellow-et-al-2016}.}
+  \label{poolinglayer}
 \end{figure} 
 \FloatBarrier
 
