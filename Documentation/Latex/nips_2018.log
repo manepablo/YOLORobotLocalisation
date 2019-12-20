@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.9)  19 DEC 2019 16:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.9)  20 DEC 2019 13:26
 entering extended mode
 **./nips_2018.tex
 (nips_2018.tex
@@ -305,28 +305,67 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/placeins\p
 laceins.sty"
 Package: placeins 2005/04/18  v 2.2
-) (nips_2018.aux
+)
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\ba
+bel.sty"
+Package: babel 2019/09/27 3.34 The Babel package
+
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\sw
+itch.def"
+File: switch.def 2019/09/27 3.34 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblo
+pts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-germ
+an\german.ldf"
+Language: german 2018/12/08 v2.11 German support for babel (pre-1996 orthograph
+y)
+
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-germ
+an\germanb.ldf"
+Language: germanb 2018/12/08 v2.11 German support for babel (pre-1996 orthograp
+hy)
+
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\ba
+bel.def"
+File: babel.def 2019/09/27 3.34 Babel common definitions
+\babel@savecnt=\count108
+\U@D=\dimen131
+
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\tx
+tbabel.def")
+\bbl@dirlevel=\count109
+)
+Package babel Info: Making " an active character on input line 135.
+))) (nips_2018.aux
 
 LaTeX Warning: Label `dlmlunterschied' multiply defined.
 
 )
 \openout1 = `nips_2018.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 67
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 68
 .
 
 ("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1p
@@ -400,7 +439,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box27
-Package hyperref Info: Link coloring OFF on input line 67.
+Package hyperref Info: Link coloring OFF on input line 68.
 
 ("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\n
 ameref.sty"
@@ -410,23 +449,23 @@ Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 \gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count108
+\c@section@level=\count110
 )
-LaTeX Info: Redefining \ref on input line 67.
-LaTeX Info: Redefining \pageref on input line 67.
-LaTeX Info: Redefining \nameref on input line 67.
+LaTeX Info: Redefining \ref on input line 68.
+LaTeX Info: Redefining \pageref on input line 68.
+LaTeX Info: Redefining \nameref on input line 68.
  (nips_2018.out) (nips_2018.out)
 \@outlinefile=\write3
 \openout3 = `nips_2018.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 67.
+LaTeX Info: Redefining \microtypecontext on input line 68.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 67.
+LaTeX Info: Redefining \showhyphens on input line 68.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -438,16 +477,16 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 ("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mki
 i\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count109
-\scratchdimen=\dimen131
+\scratchcounter=\count111
+\scratchdimen=\dimen132
 \scratchbox=\box28
-\nofMPsegments=\count110
-\nofMParguments=\count111
+\nofMPsegments=\count112
+\nofMParguments=\count113
 \everyMPshowfont=\toks20
-\MPscratchCnt=\count112
-\MPscratchDim=\dimen132
-\MPnumerator=\count113
-\makeMPintoPDFobject=\count114
+\MPscratchCnt=\count114
+\MPscratchDim=\dimen133
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
 \everyMPtoPDFconversion=\toks21
 )
 ("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\e
@@ -466,14 +505,14 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 71.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 72.
 
 ("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\
 mt-cmr.cfg"
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 71.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 72.
 
 
 ("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\u
@@ -484,7 +523,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 mt-msa.cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 71.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 72.
 
 
 ("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\u
@@ -496,29 +535,26 @@ mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 71.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 72.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 73.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 74.
  [1
 
 
 {C:/Users/TimEisenacher/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (ei
 nleitung.tex) (standdertechnik.tex
-<mldlunterschied.png, id=76, 657.2053pt x 311.66437pt>
+<mldlunterschied.png, id=64, 633.11531pt x 356.0803pt>
 File: mldlunterschied.png Graphic file (type png)
 <use mldlunterschied.png>
 Package pdftex.def Info: mldlunterschied.png  used on input line 6.
-(pdftex.def)             Requested size: 227.62204pt x 107.94281pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+(pdftex.def)             Requested size: 227.62204pt x 128.02037pt.
  [2 <./mldlunterschied.png>]
-<cnn_prinzip.png, id=93, 361.35pt x 249.43187pt>
+<cnn_prinzip.png, id=81, 361.35pt x 249.43187pt>
 File: cnn_prinzip.png Graphic file (type png)
 <use cnn_prinzip.png>
 Package pdftex.def Info: cnn_prinzip.png  used on input line 21.
 (pdftex.def)             Requested size: 341.43306pt x 235.68391pt.
-<pooling_layer.png, id=97, 355.82938pt x 110.91437pt>
+<pooling_layer.png, id=85, 355.82938pt x 110.91437pt>
 File: pooling_layer.png Graphic file (type png)
 <use pooling_layer.png>
 Package pdftex.def Info: pooling_layer.png  used on input line 29.
@@ -527,9 +563,10 @@ Package pdftex.def Info: pooling_layer.png  used on input line 29.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3 <./cnn_prinzip.png>]) (methoden.tex) (nips_2018.bbl
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-1.
+[3 <./cnn_prinzip.png>]) (methoden.tex [4 <./pooling_layer.png>])
+(nips_2018.bbl
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+3.
 
 ("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cmt
 t.fd"
@@ -539,13 +576,16 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [4 <./pooling_layer.png>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
- [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
+ [5]) (nips_2018.lof)
+\tf@lof=\write4
+\openout4 = `nips_2018.lof'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
  (nips_2018.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 168.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
 
 
 Package rerunfilecheck Warning: File `nips_2018.out' has changed.
@@ -553,21 +593,21 @@ Package rerunfilecheck Warning: File `nips_2018.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `nips_2018.out':
-(rerunfilecheck)             Before: 78A93703E972DA550A7EDD9D5121C032;864
-(rerunfilecheck)             After:  3A99083ACFEE288AAB4EC4066215EB2A;937.
+(rerunfilecheck)             Before: 378F44EC5C1B24791CCAB0C8699DAFDD;667
+(rerunfilecheck)             After:  B0048F926E43015D7B7DE63B63157BBF;742.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 168.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 99.
  ) 
 Here is how much of TeX's memory you used:
- 8196 strings out of 492452
- 128163 string characters out of 3116328
- 252674 words of memory out of 3000000
- 12259 multiletter control sequences out of 15000+200000
- 33781 words of font info for 128 fonts, out of 3000000 for 9000
+ 8863 strings out of 492452
+ 137836 string characters out of 3116328
+ 270434 words of memory out of 3000000
+ 12873 multiletter control sequences out of 15000+200000
+ 35331 words of font info for 146 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 33i,8n,42p,1214b,441s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 33i,8n,42p,1391b,487s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\TimEisenacher\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec
 /dpi600\ectt1000.pk>{C:/Users/TimEisenacher/AppData/Local/Programs/MiKTeX 2.9/f
 onts/enc/dvips/base/8r.enc}<C:/Users/TimEisenacher/AppData/Local/Programs/MiKTe
@@ -582,9 +622,9 @@ a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users
 fb><C:/Users/TimEisenacher/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmr8a.pfb><C:/Users/TimEisenacher/AppData/Local/Programs/MiKTeX 2.9/fonts/
 type1/urw/times/utmri8a.pfb>
-Output written on nips_2018.pdf (5 pages, 218373 bytes).
+Output written on nips_2018.pdf (6 pages, 216855 bytes).
 PDF statistics:
- 201 PDF objects out of 1000 (max. 8388607)
- 42 named destinations out of 1000 (max. 500000)
- 18560 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 210 PDF objects out of 1000 (max. 8388607)
+ 43 named destinations out of 1000 (max. 500000)
+ 18536 words of extra memory for PDF output out of 20736 (max. 10000000)
 
