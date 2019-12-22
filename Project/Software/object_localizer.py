@@ -34,7 +34,8 @@ class ObjectLocalizer2D ( object ) :
 		def custom_loss(y_true, y_pred):
 			mse = tf.losses.mean_squared_error(y_true, y_pred)
 			iou = calculate_iou(y_true, y_pred)
-			return mse + (1 - iou)
+			#return mse + (1 - iou)
+			return (1 - iou)
 
 		def iou_metric(y_true, y_pred):
 			return calculate_iou(y_true, y_pred)

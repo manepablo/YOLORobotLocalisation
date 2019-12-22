@@ -9,7 +9,7 @@
 }
 
 @InProceedings{Atiqur,
-  author    = {Md Atiqur Rahman and Yang Wang},
+  author    = {Md Atiqur, Rahman, YangWang},
   title     = {Optimizing Intersection-Over-Union in Deep Neural Networks for Image Segmentation},
   booktitle = {Department of Computer Science, University of Manitoba, Canada},
   year      = {2015},

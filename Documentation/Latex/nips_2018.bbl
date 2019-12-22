@@ -1,12 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{Atiqur}
-Md~Atiqur, Rahman, Yang, and Wang.
-\newblock Optimizing intersection-over-union in deep neural networks for image
-  segmentation.
-\newblock In {\em Department of Computer Science, University of Manitoba,
-  Canada}, 2015.
-
 \bibitem{chollet2015keras}
 Fran\c{c}ois Chollet et~al.
 \newblock Keras.
@@ -48,6 +41,12 @@ Wee Hyong~Tok Mathew~Salvaris, Danielle~Dean.
 \newblock {\em Deep Learning mit Microsoft Azure}.
 \newblock Rheinwerk Computing, 2019.
 
+\bibitem{Mousavian1612}
+Arsalan Mousavian, Dragomir Anguelov, John Flynn, George Mason~University Zoox,
+  Inc. Zoox, and Inc.
+\newblock 3d bounding box estimation using deep learning and geometry.
+\newblock In {\em arXiv:1612.00496v2}, 2017.
+
 \bibitem{Abstract2016}
 Ahmad~Zaib Muhammad Imran~Razzak, Saeeda~Naz.
 \newblock Deep learning for medical image processing: Overview, challenges and
@@ -59,12 +58,25 @@ Wanli Ouyang, Xiaogang Wang, Xingyu Zeng, Shi Qiu, Ping Luo, Yonglong Tian,
   Hongsheng Li, Shuo Yang, Zhe Wang, Chen-Change Loy, and Xiaoou Tang.
 \newblock Deepid-net: Deformable deep convolutional neural networks for object
   detection.
-\newblock In {\em CVPR}, 2014.
+\newblock In {\em CVPR 2015 p.2403-2412}, 2014.
+
+\bibitem{Atiqur}
+Md~Atiqur Rahman and Yang Wang.
+\newblock Optimizing intersection-over-union in deep neural networks for image
+  segmentation.
+\newblock In {\em Department of Computer Science, University of Manitoba,
+  Canada}, 2015.
 
 \bibitem{Redmon2016}
 Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi.
 \newblock You only look once: Unified, real-time object detection.
 \newblock In {\em arXiv:1506.02640v5}, 2016.
+
+\bibitem{Rezatofighi1902}
+Hamid Rezatofighi, Nathan~Tsoi JunYoung, and Gwak~Amir Sadeghian.
+\newblock Generalized intersection over union: A metric and a loss for bounding
+  box regression.
+\newblock In {\em arXiv:1902.09630v2}, 2019.
 
 \bibitem{Surgery1803}
 Robot-Assisted Surgery, Using Deep, and Learning.
@@ -77,10 +89,15 @@ Jonathan Tremblay, Thang To, and Balakumar Sundaralingam.
   household objects.
 \newblock In {\em arXiv:1809.10790v1}, 2018.
 
+\bibitem{Xu2019}
+Jun Xu, Yanxin Ma, Songhua He, and Jiahua Zhu.
+\newblock 3d-{GIoU}: 3d generalized intersection over union for object
+  detection in point cloud.
+\newblock {\em Sensors MDPI}, 19(19):4093, sep 2019.
+
 \bibitem{Detection2019}
-Zhong-Qiu Zhao, Member, IEEE, Peng Zheng, Shou tao Xu, Xindong Wu, Fellow, and
-  IEEE.
-\newblock Object detection and with deep and learning: A review.
+Zhong-Qiu Zhao, Peng Zheng, Shou tao Xu, and Xindong Wu.
+\newblock Object detection with deep learning: A review.
 \newblock In {\em arXiv:1807.05511v2}. IEEE, 2019.
 
 \end{thebibliography}

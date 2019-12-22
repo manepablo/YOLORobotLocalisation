@@ -1,7 +1,7 @@
 % Encoding: UTF-8
 
 @InProceedings{Rezatofighi1902,
-  author    = {Hamid Rezatofighi and 2 Nathan Tsoi1 JunYoung Gwak1 Amir Sadeghian},
+  author    = {Hamid Rezatofighi and Nathan Tsoi JunYoung and Gwak Amir Sadeghian},
   title     = {Generalized Intersection over Union: A Metric and A Loss for Bounding Box Regression},
   booktitle = {arXiv:1902.09630v2},
   year      = {2019},
@@ -87,7 +87,7 @@ of known household objects in clutter by a real robot.1},
 @InProceedings{Ouyang2014,
   author    = {Wanli Ouyang and Xiaogang Wang and Xingyu Zeng and Shi Qiu and Ping Luo and Yonglong Tian and Hongsheng Li and Shuo Yang and Zhe Wang and Chen-Change Loy and Xiaoou Tang},
   title     = {DeepID-Net: Deformable Deep Convolutional Neural Networks for Object Detection},
-  booktitle = {CVPR},
+  booktitle = {CVPR 2015 p.2403-2412},
   year      = {2014},
   abstract  = {Pretrained on object-level annoation Pretrained on image-level annotation},
   file      = {:C\:\\DLM\\Documentation\\Ouyang_DeepID-Net_Deformable_Deep_2015_CVPR_paper.pdf:PDF},
@@ -140,8 +140,8 @@ of known household objects in clutter by a real robot.1},
 }
 
 @InProceedings{Detection2019,
-  author    = {Zhong-Qiu Zhao and Member and IEEE and Peng Zheng and Shou-tao Xu and Xindong Wu and Fellow and IEEE},
-  title     = {Object Detection and with Deep and Learning: A Review},
+  author    = {Zhong-Qiu Zhao and Peng Zheng and Shou-tao Xu and Xindong Wu},
+  title     = {Object Detection with Deep Learning: A Review},
   booktitle = {arXiv:1807.05511v2},
   year      = {2019},
   publisher = {IEEE},
@@ -212,6 +212,35 @@ available at: https://github.com/weiliu89/caffe/tree/ssd .},
   abstract  = {while achieving top accuracy on PASCAL VOC 2012 [7]
 with a mAP of 66% (vs. 62% for R-CNN).1},
   file      = {:C\:\\DLM\\Documentation\\f_rcnn.pdf:PDF},
+}
+
+@Misc{chollet2015keras,
+  author       = {Chollet, Fran\c{c}ois and others},
+  title        = {Keras},
+  howpublished = {\url{https://keras.io}},
+  year         = {2015},
+}
+
+@Article{Xu2019,
+  author    = {Jun Xu and Yanxin Ma and Songhua He and Jiahua Zhu},
+  title     = {3D-{GIoU}: 3D Generalized Intersection over Union for Object Detection in Point Cloud},
+  journal   = {Sensors MDPI},
+  year      = {2019},
+  volume    = {19},
+  number    = {19},
+  pages     = {4093},
+  month     = {sep},
+  doi       = {10.3390/s19194093},
+  file      = {:C\:\\DLM\\Documentation\\3D-GIoU_3D_Generalized_Intersection_over_Union_for.pdf:PDF},
+  publisher = {{MDPI} {AG}},
+}
+
+@InProceedings{Mousavian1612,
+  author    = {Arsalan Mousavian and Dragomir Anguelov and John Flynn and George Mason University Zoox and Inc. Zoox and Inc},
+  title     = {3D Bounding Box Estimation Using Deep Learning and Geometry},
+  booktitle = {arXiv:1612.00496v2},
+  year      = {2017},
+  file      = {:C\:\\DLM\\Documentation\\loss_3d_3vorschlaege.pdf:PDF},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
