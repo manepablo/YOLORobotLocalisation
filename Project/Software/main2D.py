@@ -17,6 +17,9 @@ input_dim = 228
 
 xTrain, xTest , yTrain, yTest = ld.LoadAndSafe2D(split_size=0.9)
 
+
+plotIM_BB(image=xTrain[22], boudingBox = yTrain[22], bbType = "2d")
+
 print( xTrain.shape )
 print( yTrain.shape )
 print( xTest.shape )
