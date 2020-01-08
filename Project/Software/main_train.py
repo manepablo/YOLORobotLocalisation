@@ -22,9 +22,9 @@ x_dim = 512; y_dim = 512
 # define splitsize for Test and Train data
 split = 0.1
 # define if 3d bb or 2d bb type
-bb = "3d"
+bb = "2d"
 # defin epochs to train
-epochs = 15
+epochs = 35
 # defin batch size
 batch_size = 1
 

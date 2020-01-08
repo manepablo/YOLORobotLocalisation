@@ -3,7 +3,7 @@
 \contentsline {figure}{\numberline {2}{\ignorespaces Prinzip eines Convolutional Layers \cite [S.330]{Goodfellow-et-al-2016}.}}{3}{figure.2}% 
 \contentsline {figure}{\numberline {3}{\ignorespaces Prinzip eines Pooling Layers \cite [S.337]{Goodfellow-et-al-2016}.}}{4}{figure.3}% 
 \contentsline {figure}{\numberline {4}{\ignorespaces Intersection over Union}}{5}{figure.4}% 
-\contentsline {figure}{\numberline {5}{\ignorespaces Prädizierte und gelabelte Bpounding}}{5}{figure.5}% 
+\contentsline {figure}{\numberline {5}{\ignorespaces Prädizierte und gelabelte Punkte der Bounding-Box. Die gelben Linien stellen den Prädiktonsfehler dar}}{5}{figure.5}% 
 \contentsline {figure}{\numberline {6}{\ignorespaces Grobe Darstellung der Netzstruktur zur prädiktion einer 3D Bounding-Box}}{6}{figure.6}% 
 \contentsline {figure}{\numberline {7}{\ignorespaces 3D Bounding-Box mit 8 Punkten \leavevmode {\color {red}(rot)} und im Vergleich dazu eine 2D Bounding-Box mit 2 Punkten \leavevmode {\color {blue}(blau)} }}{6}{figure.7}% 
 \contentsline {figure}{\numberline {8}{\ignorespaces UML Diagramm loadData}}{7}{figure.8}% 
