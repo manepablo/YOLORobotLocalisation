@@ -105,7 +105,7 @@ class ObjectLocalizer2D ( object ) :
 	def fit(self, X, Y, hyperparameters):
         
 		initial_time = time.time()
-		self.__model.fit(X, Y,
+		hist = self.__model.fit(X, Y,
 						 batch_size=hyperparameters['batch_size'],
 						 epochs=hyperparameters['epochs'],
 						 callbacks=hyperparameters['callbacks'],
@@ -119,7 +119,7 @@ class ObjectLocalizer2D ( object ) :
 			time_unit = 'minutes'
 		self.__model.summary()
 		print('Elapsed time acquired for {} epoch(s) -> {} {}'.format(hyperparameters['epochs'], eta, time_unit))
-
+		return hist
 
 	def evaluate(self, test_X, test_Y):
 		return self.__model.evaluate(test_X, test_Y)
@@ -229,7 +229,7 @@ class ObjectLocalizer3D ( object ) :
         
 	def fit(self, X, Y, hyperparameters):
 		initial_time = time.time()      
-		self.__model.fit(X, Y,
+		hist = self.__model.fit(X, Y,
 						 batch_size=hyperparameters['batch_size'],
 						 epochs=hyperparameters['epochs'],
 						 callbacks=hyperparameters['callbacks'],
@@ -243,7 +243,7 @@ class ObjectLocalizer3D ( object ) :
 			time_unit = 'minutes'
 		self.__model.summary()
 		print('Elapsed time acquired for {} epoch(s) -> {} {}'.format(hyperparameters['epochs'], eta, time_unit))
-
+		return hist               
 
 	def evaluate(self, test_X, test_Y):
 		return self.__model.evaluate(test_X, test_Y)
