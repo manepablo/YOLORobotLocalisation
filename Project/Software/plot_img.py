@@ -7,7 +7,7 @@ Created on Sun Dec 22 14:31:07 2019
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 
-def plotIM_BB (image, boudingBox, boudingBox2 = None, bbType = "3d", relativLabels = True):
+def plotIM_BB (image, boudingBox, boudingBox2 = None, bbType = "3d", relativLabels = True, loss = None):
     """
    
     This Function plots an image with its 3d or 2d Bounding Box
@@ -135,6 +135,8 @@ def plotIM_BB (image, boudingBox, boudingBox2 = None, bbType = "3d", relativLabe
                               mutation_scale=20, fc="b",edgecolor='r',linewidth=2)
         ax.add_artist(con)
         plt.show()
+        
+        fig.suptitle("loss_metric=" + str(loss), fontsize=16)
         
         if boudingBox2 is not None:
             xyA = (boudingBox2[0]*xImgS, boudingBox2[1]*yImgS)
