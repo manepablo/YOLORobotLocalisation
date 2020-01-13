@@ -8,3 +8,4 @@
 \contentsline {figure}{\numberline {7}{\ignorespaces 3D Bounding-Box mit 8 Punkten \leavevmode {\color {red}(rot)} und im Vergleich dazu eine 2D Bounding-Box mit 2 Punkten \leavevmode {\color {blue}(blau)} }}{6}{figure.7}% 
 \contentsline {figure}{\numberline {8}{\ignorespaces UML Diagramm loadData}}{7}{figure.8}% 
 \contentsline {figure}{\numberline {9}{\ignorespaces UML Diagramm der Klasse ObjectLocalizer3D, welche von der \textit {Keras functional API} abgeleitet ist}}{8}{figure.9}% 
+\contentsline {figure}{\numberline {10}{\ignorespaces Trainierte und prädizierte Bounding-Boxen}}{8}{figure.10}% 

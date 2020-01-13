@@ -41,7 +41,7 @@
 % \AND instead of \And before the third author name.
 
 \author{%
-  GruppeNR: 1, Namen: Tim Eisenacher (1870755) und Paul Manea() \\
+  GruppeNR: 1, Namen: Tim Eisenacher (1870755) und Paul Manea(1870391) \\
   EMail: 1870755@stud.hs-mannheim.de
   % examples of more authors
   % \And
@@ -85,11 +85,10 @@
 
 \input{ergebnisse.tex}
 
-
 \section{Fazit und Ausblick}
 
-In der vorliegenden Arbeit wurde erfolgreich ein Netzwerk zur Detektion einer 3d Bounding-Box Trainiert und getestet. 
-Zusätzlich ergeben sich vielversprechende Anknüpfungspunkte für weitere Arbeiten. Atiqur beschreibt zum Beispiel eine Möglichkeit die IOU Berechung im 2D-Fall noch weiter zu optimieren in \cite{Atiqur}. Weiterhin wäre es interessant die IOU auch für die Berechnung der Loss Funktion im 3D Fall zu benutzten. Möglich Ansätze für 3D-IOU Berechungen finden sich in \cite{Xu2019} und \cite{Mousavian1612}.
+In der vorliegenden Arbeit wurde erfolgreich ein \textit{Deep-Learning} Netzwerk zur Detektion einer 3D Bounding-Box trainiert und validiert. Als Netzstrukur dient dabei eine modifizierte Version des \textit{YOLO}-Netzes. Zur Validierung im 2D-Fall dient die \textit{IOU}-Metrik. Im 3D-Fall wird der \textit{Loss} mittels der L2-Metrik ermittelt. Die optimalen Hyperparameter sind empirisch aus verschiedenen Experimenten hervorgegangen.
+Zusätzlich ergeben sich vielversprechende Anknüpfungspunkte für weitere Arbeiten. Atiqur beschreibt zum Beispiel eine Möglichkeit die IOU Berechung im 2D-Fall noch weiter zu optimieren in \cite{Atiqur}. Weiterhin wäre es interessant die IOU auch für die Berechnung der Loss Funktion im 3D Fall zu benutzten. Möglich Ansätze für 3D-IOU Berechungen finden sich in \cite{Xu2019} und \cite{Mousavian1612}. Eine weitere Möglichkeit zur Verbesserung der Trainingsergebnisse liegt in der Augmentation der Daten. Darauf wird im Rahmen dieser Arbeit jedoch verzichtet.
 
 
 \section{Literatur und Bilder}

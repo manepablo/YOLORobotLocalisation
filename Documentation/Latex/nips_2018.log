@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.9)  13 JAN 2020 14:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.9)  13 JAN 2020 15:52
 entering extended mode
 **./nips_2018.tex
 (nips_2018.tex
@@ -363,7 +363,11 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-) (nips_2018.aux)
+) (nips_2018.aux
+
+LaTeX Warning: Label `pred_boxes' multiply defined.
+
+)
 \openout1 = `nips_2018.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
@@ -618,7 +622,16 @@ File: Abb/ULM_class_objectLocalizer.PNG Graphic file (type png)
 Package pdftex.def Info: Abb/ULM_class_objectLocalizer.PNG  used on input line 
 86.
 (pdftex.def)             Requested size: 392.64812pt x 195.45845pt.
-[7 <./Abb/ULM_class_loadData.PNG>]) (ergebnisse.tex) (nips_2018.bbl
+[7 <./Abb/ULM_class_loadData.PNG>]) (ergebnisse.tex
+
+LaTeX Warning: Reference `lossbild' on page 8 undefined on input line 3.
+
+<Abb/pred_bb.png, id=187, 1090.0725pt x 358.33875pt>
+File: Abb/pred_bb.png Graphic file (type png)
+<use Abb/pred_bb.png>
+Package pdftex.def Info: Abb/pred_bb.png  used on input line 13.
+(pdftex.def)             Requested size: 392.64812pt x 129.07292pt.
+) [8 <./Abb/ULM_class_objectLocalizer.PNG> <./Abb/pred_bb.png>] (nips_2018.bbl
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
 .
 
@@ -630,29 +643,35 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [8 <./Abb/ULM_class_objectLocalizer.PNG>]) (nips_2018.lof)
+ [9]) (nips_2018.lof)
 \tf@lof=\write4
 \openout4 = `nips_2018.lof'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
- [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
-
-(nips_2018.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
+ [10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
+ (nips_2018.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 101.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
 Package rerunfilecheck Info: File `nips_2018.out' has not changed.
 (rerunfilecheck)             Checksum: BDED281D67F3E5AADCDBDEEFC3C16A13;972.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
  ) 
 Here is how much of TeX's memory you used:
- 9414 strings out of 492452
- 145081 string characters out of 3116328
- 283691 words of memory out of 3000000
- 13368 multiletter control sequences out of 15000+200000
- 36431 words of font info for 160 fonts, out of 3000000 for 9000
+ 9419 strings out of 492452
+ 145195 string characters out of 3116328
+ 281803 words of memory out of 3000000
+ 13376 multiletter control sequences out of 15000+200000
+ 36171 words of font info for 156 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 33i,8n,42p,1477b,452s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 33i,8n,42p,1477b,496s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\TimEisenacher\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec
 /dpi600\ectt1000.pk>{C:/Users/TimEisenacher/AppData/Local/Programs/MiKTeX 2.9/f
 onts/enc/dvips/base/8r.enc}<C:/Users/TimEisenacher/AppData/Local/Programs/MiKTe
@@ -667,9 +686,9 @@ a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users
 fb><C:/Users/TimEisenacher/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmr8a.pfb><C:/Users/TimEisenacher/AppData/Local/Programs/MiKTeX 2.9/fonts/
 type1/urw/times/utmri8a.pfb>
-Output written on nips_2018.pdf (9 pages, 893842 bytes).
+Output written on nips_2018.pdf (10 pages, 1250419 bytes).
 PDF statistics:
- 287 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 500000)
- 18598 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 294 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 18603 words of extra memory for PDF output out of 20736 (max. 10000000)
 
