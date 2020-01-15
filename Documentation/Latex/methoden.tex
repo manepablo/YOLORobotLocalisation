@@ -48,7 +48,7 @@ Die Netzstruktur, welche für die prädiktion einer 3D Bounding-Box verwendet wi
 
 \newpage
 \subsection{Training}
-Für das Training wird ein gelabelter Datensatz verwendet, welcher vom Institut für eingebettete Systeme und Medizintechnik der Hochschule Mannheim bereitgestellt wird. Es liegen insgesamt 1000 gelabelte Samples vor, von denen 90\% für das Training und 10\% für die Validierung verwendet werden. Alle weiteren Trainingsparameter sind Tabelle \ref{trainings_param} zu entnehmen.\\
+Für das Training wird ein gelabelter Datensatz verwendet, welcher vom Institut für eingebettete Systeme und Medizintechnik der Hochschule Mannheim bereitgestellt wird. Es liegen insgesamt 2000 gelabelte Samples vor, von denen 90\% für das Training und 10\% für die Validierung verwendet werden. Alle weiteren Trainingsparameter sind Tabelle \ref{trainings_param} zu entnehmen.\\
 
 \begin{table}[!htb]
 
@@ -59,23 +59,22 @@ Für das Training wird ein gelabelter Datensatz verwendet, welcher vom Institut 
 \textbf{Parameters}                  & \textbf{Values} \\ \hline
 \\Convolutional Layer        & 9      \\
 Fully connected Layer       & 2      \\
-Anzahl der Trainingssamples & 900    \\
-Epochen                  & 15     \\
+Anzahl der Trainingssamples & 1800    \\
+Epochen                  & 10     \\
 Batch Size                  & 1     \\
 Optimizer                   & Adam   \\
 Learning Rate               & 0,0001 \\
 Loss Function               & MSE (siehe \ref{Loss_ber})   
 \end{tabular}
 \end{table}
-Auf einer NVIDIA GTX9600M Grafikkarte mit mit einer \textit{NVIDIA Compute Capability} von 5, benötigt das Training des Netzwerks zur Detektion einer 3D Bouding box lediglich 12 Minuten.
-  
+Auf einer NVIDIA GTX9600M Grafikkarte mit mit einer \textit{NVIDIA Compute Capability} von 5, benötigt das Training des Netzwerks mit den in Tabelle \ref{trainings_param} beschriebenen Parameter lediglich 25 Minuten. Diese relativ geringe Trainingszeit ist auf die Effektivität der YOLO Netzstruktur zurückzuführen.   
 \subsection{Softwaremodul Beschreibung}
 Für die Realisierung eines Netzwerkes zu Bestimmung einer 3D Bounding-Box werden einige Softwaremodule implementiert. Im folgenden werden diese Module beschrieben. 
 \subsubsection{Laden der Daten}
 Das laden der Trainingsdaten wird durch eine eigens dafür entwickelte klasse Implementiert. Die Bilder liegen im .png Format und die Labls im .json Format vor. Die Klasse lädt diese Daten, teilt diese in Trainings- und Testdaten auf und gibt die Daten als \textit{numpy arrays} zurück, sodass diese direkt für das Training verwendet werden können. In Abbildung \ref{UML_load} ist das zu der Klasse gehörige UML Diagramm mit allen Methoden aufgezeigt.
 \begin{figure}[!htb]
   \centering
-  \includegraphics[width=6.8cm]{Abb/ULM_class_loadData.PNG}
+  \includegraphics[width=7.8cm]{Abb/ULM_class_loadData.PNG}
   \caption{UML Diagramm loadData}
   \label{UML_load}
 \end{figure} 
@@ -83,7 +82,7 @@ Das laden der Trainingsdaten wird durch eine eigens dafür entwickelte klasse Im
 in der Klasse \textit{ObjectLocalizer3D} befindet sich der für das Neuronale Netz relevante Programmcode. Hier wird unter anderem das Netz erzeugt, die Loss Funktion definiert, sowie eine Metrik geschrieben. Die Klasse ist abgeleitet von der \textit{Keras functional API}. Die Klasse besitzt auch Methoden, wie fit, welche direkt auf die zu der \textit{Keras functional API} zugehörige fit Methode zugreift. Ebenfalls ist es möglich die Trainierten Modelle zu speichern oder diese zu Laden. In Abbildung \ref{UML_localizer} ist ein UML Diagramm der Klasse dargestellt.  
 \begin{figure}[!htb]
   \centering
-  \includegraphics[width=13.8cm]{Abb/ULM_class_objectLocalizer.PNG}
+  \includegraphics[width=14cm]{Abb/ULM_class_objectLocalizer.PNG}
   \caption{UML Diagramm der Klasse ObjectLocalizer3D, welche von der \textit{Keras functional API} abgeleitet ist}
   \label{UML_localizer}
 \end{figure} 
