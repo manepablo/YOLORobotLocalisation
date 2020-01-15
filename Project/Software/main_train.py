@@ -25,7 +25,7 @@ split = 0.1
 # define if 3d bb or 2d bb type
 bb = "3d"
 # defin epochs to train
-epochs = 1
+epochs = 10
 # defin batch size
 batch_size = 1
 
@@ -76,5 +76,19 @@ plt.pyplot.plot(hist.history['val_loss'])
 i = 33
 plotIM_BB(image=xTest[i], boudingBox = yTest[i], boudingBox2 = localizer.predict(np.expand_dims(xTest[i],0))[0], bbType = bb)
 
-for i in range(0,15):
+for i in range(0,50):
     plotIM_BB(image=xTest[i], boudingBox = yTest[i], boudingBox2 = localizer.predict(np.expand_dims(xTest[i],0))[0], bbType = bb, loss = localizer.iou_metric(yTest[i], localizer.predict(np.expand_dims(xTest[i],0))[0] ))
+
+# show best and worst prediction    
+min_loss = 100000
+max_loss = -100000
+for i in range(1,len(xTest)):
+    loss = localizer.iou_metric(yTest[i], localizer.predict(np.expand_dims(xTest[i],0))[0] )
+    if loss < min_loss:
+        min_loss = loss
+        min_loss_idx = i
+    if loss > max_loss:
+        max_loss = loss
+        max_loss_idx = i
+plotIM_BB(image=xTest[min_loss_idx], boudingBox = yTest[min_loss_idx], boudingBox2 = localizer.predict(np.expand_dims(xTest[min_loss_idx],0))[0], bbType = bb, loss = localizer.iou_metric(yTest[min_loss_idx], localizer.predict(np.expand_dims(xTest[min_loss_idx],0))[0] ))
+plotIM_BB(image=xTest[max_loss_idx], boudingBox = yTest[max_loss_idx], boudingBox2 = localizer.predict(np.expand_dims(xTest[max_loss_idx],0))[0], bbType = bb, loss = localizer.iou_metric(yTest[max_loss_idx], localizer.predict(np.expand_dims(xTest[max_loss_idx],0))[0] ))        

@@ -28,7 +28,7 @@ class loadData():
        x_data_list = os.listdir(self.xPath)
        images = []
        
-       for pics in x_data_list:           
+       for pics in x_data_list: 
            image = cv2.imread(self.xPath + '/' + pics)
            images.append( np.asarray( image ) / 255 )
        return images
@@ -119,6 +119,7 @@ class loadData():
         return np.array(labeldata)
         
     def LoadAndSafe3D(self, split_size=0.5, save = False, relativLabels = True):
+        
         train_features , test_features ,train_labels, test_labels = train_test_split(self.loadImg() , self.loadLabel3D(relativLabels) , test_size = split_size)
         if save:
             np.save( os.path.join( self.dir , 'train_x.npy' ) , train_features )
