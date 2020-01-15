@@ -1,6 +1,6 @@
 \section{Methoden}
 
-Zu Lösung der Aufgabenstellung wird die sogenannte YOLO (\textit{You Only Look Once}) Netzstruktur in Python unter Nutzung der Keras API implementiert. YOLO Netze zeichnen sich durch gute Detektionsergebnisse bei einer sehr hohen Trainings- und Klassifikationsperfomanz aus. So ist mithilfe des YOLO-Modells sogar auf vergleichsweise kostengünstiger Hardware eine Echtzeitschätzung der Bounding-Boxen von Objekten möglich \cite{Redmon2016}. 
+Zu Lösung der Aufgabenstellung wird eine modifizierte Version der sogenannten YOLO (\textit{You Only Look Once}) Netzstruktur in Python unter Nutzung der Keras API implementiert. YOLO Netze zeichnen sich durch gute Detektionsergebnisse bei einer sehr hohen Trainings- und Klassifikationsperfomanz aus. So ist mithilfe des YOLO-Modells sogar auf vergleichsweise kostengünstiger Hardware eine Echtzeitschätzung der Bounding-Boxen von Objekten möglich \cite{Redmon2016}. 
 
 \subsection{Lossberechnung und Intersection over Union}
 \label{Loss_ber}
@@ -87,6 +87,6 @@ in der Klasse \textit{ObjectLocalizer3D} befindet sich der für das Neuronale Ne
   \caption{UML Diagramm der Klasse ObjectLocalizer3D, welche von der \textit{Keras functional API} abgeleitet ist}
   \label{UML_localizer}
 \end{figure} 
-\newpage
+
 
   
