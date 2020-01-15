@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.25)  15 JAN 2020 10:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.25)  15 JAN 2020 20:38
 entering extended mode
 **./nips_2018.tex
 (nips_2018.tex
@@ -558,9 +558,9 @@ File: Abb/ULM_class_objectLocalizer.PNG Graphic file (type png)
 <use Abb/ULM_class_objectLocalizer.PNG>
 Package pdftex.def Info: Abb/ULM_class_objectLocalizer.PNG  used on input line 
 85.
-(pdftex.def)             Requested size: 398.33858pt x 198.28833pt.
+(pdftex.def)             Requested size: 404.02904pt x 201.1234pt.
 
-Overfull \hbox (0.85359pt too wide) in paragraph at lines 85--86
+Overfull \hbox (6.54405pt too wide) in paragraph at lines 85--86
  [][] 
  []
 
@@ -616,13 +616,13 @@ Package rerunfilecheck Info: File `nips_2018.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
  ) 
 Here is how much of TeX's memory you used:
- 9459 strings out of 492453
- 142545 string characters out of 3129822
- 282052 words of memory out of 3000000
+ 9462 strings out of 492453
+ 142563 string characters out of 3129822
+ 283193 words of memory out of 3000000
  13394 multiletter control sequences out of 15000+200000
- 36916 words of font info for 166 fonts, out of 3000000 for 9000
+ 37046 words of font info for 168 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 33i,9n,42p,1477b,494s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 33i,9n,42p,1406b,494s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Paul\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\e
 ctt1000.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program
  Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/M
@@ -633,7 +633,7 @@ ic/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on nips_2018.pdf (11 pages, 1242787 bytes).
+Output written on nips_2018.pdf (11 pages, 1242886 bytes).
 PDF statistics:
  311 PDF objects out of 1000 (max. 8388607)
  66 named destinations out of 1000 (max. 500000)

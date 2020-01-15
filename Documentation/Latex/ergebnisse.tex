@@ -5,7 +5,7 @@ Die in Abschnitt 3.2 beschriebene Netzstruktur wird mit dem in Abschnitt 3.3 vor
 \begin{figure}[!htb] 
   \centering
   \includegraphics[width=13.8cm]{Abb/training_progress.png}
-  \caption{Loss und Val über Trainingsepochen}
+  \caption{Trainings- und Validation-Loss während des Trainings}
   \label{lossbild}
 \end{figure} 
 In Abbildung 11 und 12 werden beispielhaft zwei prädizierte Bounding-Boxen der Testdaten dargestellt (blau). Zum Vergleich sind zusätzlich die manuell vorgelabelten Bounding-Boxen eingezeichnet (rot). Oben im Bild steht der jeweils errechnete \textit{Loss}. Hier ist zu erkennen, dass das rechte Bild mit dem höchsten \textit{Loss} auch die sichtbar größte Abweichung der prädizierten Bounding-Box mit der vorgelabelten aufweist. Der \textit{Loss} im linken Bild ist relativ gering und spiegelt so auch die erkennbare Ähnlichkeit der prädizierten Bounding-Box zur vorgelabelten Bounding-Box wieder.\\ \label{pred_boxes}
@@ -19,7 +19,7 @@ In Abbildung 11 und 12 werden beispielhaft zwei prädizierte Bounding-Boxen der 
    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
       \includegraphics[width=\linewidth]{bbs/schlecht.png}
       \label{vdiffX_unsymm} 
-      \caption{Beispiel einer schlecht prädizierten Bounding-Box mit hohem Loss. Hier könnte speziell der Stuhl und der Tisch das Netzwerk beeinflusst haben}
+      \caption{Beispiel einer schlecht prädizierten Bounding-Box mit hohem Loss. Hier könnte speziell der Stuhl das Netzwerk negativ beeinflusst haben}
    \end{minipage}
 \end{figure}
 \newpage
