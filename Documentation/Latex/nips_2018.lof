@@ -3,11 +3,11 @@
 \contentsline {figure}{\numberline {2}{\ignorespaces Prinzip eines Convolutional Layers \cite [S.330]{Goodfellow-et-al-2016}.}}{3}{figure.2}% 
 \contentsline {figure}{\numberline {3}{\ignorespaces Prinzip eines Pooling Layers \cite [S.337]{Goodfellow-et-al-2016}.}}{4}{figure.3}% 
 \contentsline {figure}{\numberline {4}{\ignorespaces Intersection over Union}}{5}{figure.4}% 
-\contentsline {figure}{\numberline {5}{\ignorespaces Prädizierte und gelabelte Punkte der Bounding-Box. Die gelben Linien stellen den Prädiktonsfehler dar}}{5}{figure.5}% 
-\contentsline {figure}{\numberline {6}{\ignorespaces Grobe Darstellung der Netzstruktur zur prädiktion einer 3D Bounding-Box}}{6}{figure.6}% 
-\contentsline {figure}{\numberline {7}{\ignorespaces 3D Bounding-Box mit 8 Punkten \leavevmode {\color {red}(rot)} und im Vergleich dazu eine 2D Bounding-Box mit 2 Punkten \leavevmode {\color {blue}(blau)} }}{6}{figure.7}% 
+\contentsline {figure}{\numberline {5}{\ignorespaces Prädizierte und gelabelte Punkte der Bounding-Box mit Prädiktonsfehler (Gelbe Linien)}}{5}{figure.5}% 
+\contentsline {figure}{\numberline {6}{\ignorespaces Vereinfachte Darstellung der Netzstruktur zur Prädiktion einer 3D-Bounding-Box}}{6}{figure.6}% 
+\contentsline {figure}{\numberline {7}{\ignorespaces 3D-Bounding-Box mit 8 Punkten \leavevmode {\color {red}(rot)} und im Vergleich dazu eine 2D-Bounding-Box mit 2 Punkten \leavevmode {\color {blue}(blau)} }}{6}{figure.7}% 
 \contentsline {figure}{\numberline {8}{\ignorespaces UML Diagramm loadData}}{7}{figure.8}% 
-\contentsline {figure}{\numberline {9}{\ignorespaces UML Diagramm der Klasse ObjectLocalizer3D, welche von der \textit {Keras functional API} abgeleitet ist}}{8}{figure.9}% 
-\contentsline {figure}{\numberline {10}{\ignorespaces Trainings- und Validation-Loss während des Trainings}}{9}{figure.10}% 
-\contentsline {figure}{\numberline {11}{\ignorespaces Beispiel einer gut prädizierten Bounding-Box mit geringem Loss. Zu sehen ist die gelabelte Bounding-Box (rot), sowie die prädizierte Bounding-Box (blau)}}{9}{figure.11}% 
-\contentsline {figure}{\numberline {12}{\ignorespaces Beispiel einer schlecht prädizierten Bounding-Box mit hohem Loss. Hier könnte speziell der Stuhl das Netzwerk negativ beeinflusst haben}}{9}{figure.12}% 
+\contentsline {figure}{\numberline {9}{\ignorespaces UML Diagramm der Klasse ObjectLocalizer3D (abgeleitet von \textit {Keras Functional API})}}{8}{figure.9}% 
+\contentsline {figure}{\numberline {10}{\ignorespaces Trainings- und Validations-Loss über die Trainingsepochen}}{9}{figure.10}% 
+\contentsline {figure}{\numberline {11}{\ignorespaces Beispiel einer gut prädizierten Bounding-Box mit geringem Loss. Zu sehen ist die gelabelte Bounding-Box (rot), sowie die prädizierte Bounding-Box (blau).}}{9}{figure.11}% 
+\contentsline {figure}{\numberline {12}{\ignorespaces Beispiel einer schlecht prädizierten Bounding-Box mit hohem Loss. Hier könnte speziell der Stuhl die Schätzung negativ beeinflusst haben.}}{9}{figure.12}% 

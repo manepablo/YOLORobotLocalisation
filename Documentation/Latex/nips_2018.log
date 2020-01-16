@@ -1,11 +1,15 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.25)  15 JAN 2020 20:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.9)  16 JAN 2020 11:13
 entering extended mode
 **./nips_2018.tex
 (nips_2018.tex
-LaTeX2e <2019-10-01> patch level 1
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
+LaTeX2e <2019-10-01>
+
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\artic
+le.cls"
 Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\size10.clo"
+
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size1
+0.clo"
 File: size10.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -26,28 +30,35 @@ LaTeX Warning: You have requested package `nips_2018',
 
 Package: neurips_2018 2018/11/19 NeurIPS 2018 submission/camera-ready style fil
 e
-(C:\Users\Paul\AppData\Roaming\MiKTeX\2.9\tex/latex/natbib\natbib.sty
+
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/natbib\nat
+bib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip43
 \bibsep=\skip44
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count88
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\g
+eometry.sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\k
+eyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.sty"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek
+\ifpdf.sty"
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifvtex.sty"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek
+\ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.sty"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\
+ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count89
@@ -63,30 +74,37 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.cfg"))
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\g
+eometry.cfg"))
 \@neuripsabovecaptionskip=\skip45
 \@neuripsbelowcaptionskip=\skip46
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\input
+enc.sty"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\fontenc.sty"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fonte
+nc.sty"
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\t1enc.def"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1enc
+.def"
 File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hyperref.sty"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\h
+yperref.sty"
 Package: hyperref 2019/09/28 v7.00a Hypertext links for LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\hobsub-hyperref.sty"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek
+\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\hobsub-generic.sty"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek
+\hobsub-generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -121,24 +139,28 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\auxhook.sty"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\a
+uxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\k
+voptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen111
 \Hy@linkcounter=\count92
 \Hy@pagecounter=\count93
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\p
+d1enc.def"
 File: pd1enc.def 2019/09/28 v7.00a Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count94
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/00miktex\hyperref.cfg"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\h
+yperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4540.
@@ -150,7 +172,8 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4793.
 \c@Hy@tempcnt=\count95
 
-(C:\Users\Paul\AppData\Roaming\MiKTeX\2.9\tex/latex/url\url.sty
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.st
+y"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -174,19 +197,22 @@ LaTeX Info: Redefining \pageref on input line 6497.
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hpdftex.def"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\h
+pdftex.def"
 File: hpdftex.def 2019/09/28 v7.00a Hyperref driver for pdfTeX
 \Fld@listcount=\count100
 \c@bookmark@seq@number=\count101
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\rerunfilecheck.sty"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\r
+erunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip47
 )
-(C:\Users\Paul\AppData\Roaming\MiKTeX\2.9\tex/latex/booktabs\booktabs.sty
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\b
+ooktabs.sty"
 Package: booktabs 2019/10/08 v1.6180339 publication quality tables
 \heavyrulewidth=\dimen115
 \lightrulewidth=\dimen116
@@ -206,7 +232,8 @@ Package: booktabs 2019/10/08 v1.6180339 publication quality tables
 \@lastruleclass=\count105
 \@thisrulewidth=\dimen127
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\a
+msfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks18
 \symAMSa=\mathgroup4
@@ -215,16 +242,19 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(C:\Users\Paul\AppData\Roaming\MiKTeX\2.9\tex/latex/units\nicefrac.sty
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/units\nice
+frac.sty"
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
 \L@UnitsRaiseDisplaystyle=\skip48
 \L@UnitsRaiseTextstyle=\skip49
 \L@UnitsRaiseScriptstyle=\skip50
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthe
+n.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ))
-(C:\Users\Paul\AppData\Roaming\MiKTeX\2.9\tex/latex/microtype\microtype.sty
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\
+microtype.sty"
 Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
 \MT@toks=\toks19
 \MT@count=\count106
@@ -233,8 +263,8 @@ LaTeX Info: Redefining \textls on input line 790.
 LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
 \MT@listname@count=\count107
 
-(C:\Users\Paul\AppData\Roaming\MiKTeX\2.9\tex/latex/microtype\microtype-pdftex.
-def
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\
+microtype-pdftex.def"
 File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 914.
@@ -243,67 +273,84 @@ LaTeX Info: Redefining \lslig on input line 914.
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-(C:\Users\Paul\AppData\Roaming\MiKTeX\2.9\tex/latex/microtype\microtype.cfg
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\
+microtype.cfg"
 File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\g
+raphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
-Package: graphics 2019/10/08 v1.3c Standard LaTeX Graphics (DPC,SPQR)
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\g
+raphics.sty"
+Package: graphics 2019/07/20 v1.3b Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\t
+rig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-c
+fg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-d
+ef\pdftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen129
 \Gin@req@width=\dimen130
 )
-(C:\Users\Paul\AppData\Roaming\MiKTeX\2.9\tex/latex/placeins\placeins.sty
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/placeins\p
+laceins.sty"
 Package: placeins 2005/04/18  v 2.2
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty"
-Package: babel 2019/10/15 3.35 The Babel package
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\ba
+bel.sty"
+Package: babel 2019/09/27 3.34 The Babel package
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\switch.def"
-File: switch.def 2019/10/15 3.35 Babel switching mechanism
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\sw
+itch.def"
+File: switch.def 2019/09/27 3.34 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\Paul\AppData\Roaming\MiKTeX\2.9\tex/latex/arabi\bblopts.cfg
+
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblo
+pts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/babel-german\german.ldf"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-germ
+an\german.ldf"
 Language: german 2018/12/08 v2.11 German support for babel (pre-1996 orthograph
 y)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/babel-german\germanb.ldf"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-germ
+an\germanb.ldf"
 Language: germanb 2018/12/08 v2.11 German support for babel (pre-1996 orthograp
 hy)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
-File: babel.def 2019/10/15 3.35 Babel common definitions
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\ba
+bel.def"
+File: babel.def 2019/09/27 3.34 Babel common definitions
 \babel@savecnt=\count108
 \U@D=\dimen131
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\tx
+tbabel.def")
 \bbl@dirlevel=\count109
 )
 Package babel Info: Making " an active character on input line 135.
 )))
-(C:\Users\Paul\AppData\Roaming\MiKTeX\2.9\tex/latex/xcolor\xcolor.sty
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xco
+lor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-c
+fg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -316,8 +363,7 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
-(nips_2018.aux)
+) (nips_2018.aux)
 \openout1 = `nips_2018.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
@@ -336,7 +382,9 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
 LaTeX Font Info:    ... okay on input line 69.
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 69
 .
- ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\t1ptm.fd"
+
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1p
+tm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 *geometry* driver: auto-detecting
@@ -407,10 +455,13 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 
 \AtBeginShipoutBox=\box27
 Package hyperref Info: Link coloring OFF on input line 69.
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
+
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\n
+ameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\gettitlestring.sty"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek
+\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count110
@@ -418,8 +469,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 69.
 LaTeX Info: Redefining \pageref on input line 69.
 LaTeX Info: Redefining \nameref on input line 69.
-
-(nips_2018.out) (nips_2018.out)
+ (nips_2018.out) (nips_2018.out)
 \@outlinefile=\write3
 \openout3 = `nips_2018.out'.
 
@@ -435,10 +485,12 @@ Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 
-(C:\Users\Paul\AppData\Roaming\MiKTeX\2.9\tex/latex/microtype\mt-ptm.cfg
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\
+mt-ptm.cfg"
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-(C:\Users\Paul\AppData\Roaming\MiKTeX\2.9\tex/context/base/mkii\supp-pdf.mkii
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mki
+i\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count111
 \scratchdimen=\dimen132
@@ -451,10 +503,13 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 \MPnumerator=\count115
 \makeMPintoPDFobject=\count116
 \everyMPtoPDFconversion=\toks21
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
+)
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\e
+pstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\g
+rfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -467,50 +522,54 @@ G,.JBIG2,.JB2,.eps]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 73.
 
-(C:\Users\Paul\AppData\Roaming\MiKTeX\2.9\tex/latex/microtype\mt-cmr.cfg
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\
+mt-cmr.cfg"
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+msa on input line 73.
 
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\u
+msa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-(C:\Users\Paul\AppData\Roaming\MiKTeX\2.9\tex/latex/microtype\mt-msa.cfg
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\
+mt-msa.cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
 
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\u
+msb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(C:\Users\Paul\AppData\Roaming\MiKTeX\2.9\tex/latex/microtype\mt-msb.cfg
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\
+mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 73.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 75.
+ [1
 
-[1
 
-
-{C:/Users/Paul/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(einleitung.tex) (standdertechnik.tex
-<mldlunterschied.png, id=81, 633.11531pt x 356.0803pt>
+{C:/Users/TimEisenacher/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (ei
+nleitung.tex) (standdertechnik.tex
+<mldlunterschied.png, id=79, 633.11531pt x 356.0803pt>
 File: mldlunterschied.png Graphic file (type png)
 <use mldlunterschied.png>
 Package pdftex.def Info: mldlunterschied.png  used on input line 6.
 (pdftex.def)             Requested size: 227.62204pt x 128.02037pt.
  [2 <./mldlunterschied.png>]
-<cnn_prinzip.png, id=98, 361.35pt x 249.43187pt>
+<cnn_prinzip.png, id=96, 361.35pt x 249.43187pt>
 File: cnn_prinzip.png Graphic file (type png)
 <use cnn_prinzip.png>
 Package pdftex.def Info: cnn_prinzip.png  used on input line 22.
 (pdftex.def)             Requested size: 341.43306pt x 235.68391pt.
-<pooling_layer.png, id=102, 355.82938pt x 110.91437pt>
+<pooling_layer.png, id=100, 355.82938pt x 110.91437pt>
 File: pooling_layer.png Graphic file (type png)
 <use pooling_layer.png>
 Package pdftex.def Info: pooling_layer.png  used on input line 31.
@@ -520,23 +579,23 @@ Package pdftex.def Info: pooling_layer.png  used on input line 31.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [3 <./cnn_prinzip.png>]) (methoden.tex [4 <./pooling_layer.png>]
-<iou.png, id=145, 414.79968pt x 191.9672pt>
+<iou.png, id=143, 414.79968pt x 191.9672pt>
 File: iou.png Graphic file (type png)
 <use iou.png>
 Package pdftex.def Info: iou.png  used on input line 14.
 (pdftex.def)             Requested size: 227.62204pt x 105.34209pt.
-<Abb/l2_loss_bei3d_bb.png, id=150, 133.6995pt x 145.7445pt>
+<Abb/l2_loss_bei3d_bb.png, id=148, 133.6995pt x 145.7445pt>
 File: Abb/l2_loss_bei3d_bb.png Graphic file (type png)
 <use Abb/l2_loss_bei3d_bb.png>
 Package pdftex.def Info: Abb/l2_loss_bei3d_bb.png  used on input line 26.
 (pdftex.def)             Requested size: 176.407pt x 192.31439pt.
  [5 <./iou.png> <./Abb/l2_loss_bei3d_bb.png>]
-<Abb/Modell_struktur.png, id=162, 1427.3325pt x 632.3625pt>
+<Abb/Modell_struktur.png, id=160, 1427.3325pt x 632.3625pt>
 File: Abb/Modell_struktur.png Graphic file (type png)
 <use Abb/Modell_struktur.png>
 Package pdftex.def Info: Abb/Modell_struktur.png  used on input line 35.
 (pdftex.def)             Requested size: 392.64812pt x 173.9533pt.
-<Abb/3d_robotter_mit_boundig_box_2d_vs_3d.PNG, id=166, 370.986pt x 367.3725pt>
+<Abb/3d_robotter_mit_boundig_box_2d_vs_3d.PNG, id=164, 370.986pt x 367.3725pt>
 File: Abb/3d_robotter_mit_boundig_box_2d_vs_3d.PNG Graphic file (type png)
 <use Abb/3d_robotter_mit_boundig_box_2d_vs_3d.PNG>
 Package pdftex.def Info: Abb/3d_robotter_mit_boundig_box_2d_vs_3d.PNG  used on 
@@ -548,12 +607,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-<Abb/ULM_class_loadData.PNG, id=177, 301.125pt x 251.7405pt>
+<Abb/ULM_class_loadData.PNG, id=175, 301.125pt x 251.7405pt>
 File: Abb/ULM_class_loadData.PNG Graphic file (type png)
 <use Abb/ULM_class_loadData.PNG>
 Package pdftex.def Info: Abb/ULM_class_loadData.PNG  used on input line 77.
 (pdftex.def)             Requested size: 221.93158pt x 185.54367pt.
-<Abb/ULM_class_objectLocalizer.PNG, id=179, 682.34924pt x 339.669pt>
+<Abb/ULM_class_objectLocalizer.PNG, id=177, 682.34924pt x 339.669pt>
 File: Abb/ULM_class_objectLocalizer.PNG Graphic file (type png)
 <use Abb/ULM_class_objectLocalizer.PNG>
 Package pdftex.def Info: Abb/ULM_class_objectLocalizer.PNG  used on input line 
@@ -565,17 +624,21 @@ Overfull \hbox (6.54405pt too wide) in paragraph at lines 85--86
  []
 
 [7 <./Abb/ULM_class_loadData.PNG>]) (ergebnisse.tex
-<Abb/training_progress.png, id=189, 383.18156pt x 276.28218pt>
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+<Abb/training_progress.png, id=187, 383.18156pt x 276.28218pt>
 File: Abb/training_progress.png Graphic file (type png)
 <use Abb/training_progress.png>
 Package pdftex.def Info: Abb/training_progress.png  used on input line 7.
 (pdftex.def)             Requested size: 392.64812pt x 283.1236pt.
-<bbs/gut.png, id=190, 311.66437pt x 359.84438pt>
+<bbs/gut.png, id=188, 311.66437pt x 359.84438pt>
 File: bbs/gut.png Graphic file (type png)
 <use bbs/gut.png>
 Package pdftex.def Info: bbs/gut.png  used on input line 14.
 (pdftex.def)             Requested size: 198.7425pt x 229.4705pt.
-<bbs/schlecht.png, id=191, 311.66437pt x 359.84438pt>
+<bbs/schlecht.png, id=189, 311.66437pt x 359.84438pt>
 File: bbs/schlecht.png Graphic file (type png)
 <use bbs/schlecht.png>
 Package pdftex.def Info: bbs/schlecht.png  used on input line 20.
@@ -593,7 +656,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
 .
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\t1cmtt.fd"
+("C:\Users\TimEisenacher\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cmt
+t.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -604,38 +668,42 @@ Package microtype Info: Loading generic protrusion settings for font family
 \tf@lof=\write4
 \openout4 = `nips_2018.lof'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
-
-[11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
+ [11]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
  (nips_2018.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 101.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
 Package rerunfilecheck Info: File `nips_2018.out' has not changed.
-(rerunfilecheck)             Checksum: BDED281D67F3E5AADCDBDEEFC3C16A13;972.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
+(rerunfilecheck)             Checksum: 15618A8CAC882950F887425EC6E5953B;977.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
  ) 
 Here is how much of TeX's memory you used:
- 9462 strings out of 492453
- 142563 string characters out of 3129822
- 283193 words of memory out of 3000000
- 13394 multiletter control sequences out of 15000+200000
- 37046 words of font info for 168 fonts, out of 3000000 for 9000
+ 9463 strings out of 492452
+ 145892 string characters out of 3116328
+ 281979 words of memory out of 3000000
+ 13390 multiletter control sequences out of 15000+200000
+ 37591 words of font info for 172 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 33i,9n,42p,1406b,494s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Paul\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\e
-ctt1000.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on nips_2018.pdf (11 pages, 1242886 bytes).
+ 33i,8n,42p,1449b,496s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\TimEisenacher\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec
+/dpi600\ectt1000.pk>{C:/Users/TimEisenacher/AppData/Local/Programs/MiKTeX 2.9/f
+onts/enc/dvips/base/8r.enc}<C:/Users/TimEisenacher/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/TimEisenacher/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/
+TimEisenacher/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmmi7.pfb><C:/Users/TimEisenacher/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr10.pfb><C:/Users/TimEisenacher/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/TimEisenacher/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users
+/TimEisenacher/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy7.pfb><C:/Users/TimEisenacher/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/urw/times/utmb8a.pfb><C:/Users/TimEisenacher/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/TimEisenacher/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on nips_2018.pdf (11 pages, 1251185 bytes).
 PDF statistics:
- 311 PDF objects out of 1000 (max. 8388607)
+ 312 PDF objects out of 1000 (max. 8388607)
  66 named destinations out of 1000 (max. 500000)
  18613 words of extra memory for PDF output out of 20736 (max. 10000000)
 

@@ -24,7 +24,7 @@ Es ist darauf hinzuweisen, dass aufgrund der hohen Komplexität auf die Erweiter
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=6.2cm]{Abb/l2_loss_bei3d_bb.png}
-  \caption{Prädizierte und gelabelte Punkte der Bounding-Box. Die gelben Linien stellen den Prädiktonsfehler dar}
+  \caption{Prädizierte und gelabelte Punkte der Bounding-Box mit Prädiktonsfehler (Gelbe Linien)}
   \label{L2_loss_graphik}
 \end{figure} 
 \newpage
@@ -33,22 +33,22 @@ Es ist darauf hinzuweisen, dass aufgrund der hohen Komplexität auf die Erweiter
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=13.8cm]{Abb/Modell_struktur.png}
-  \caption{Grobe Darstellung der Netzstruktur zur prädiktion einer 3D Bounding-Box}
+  \caption{Vereinfachte Darstellung der Netzstruktur zur Prädiktion einer 3D-Bounding-Box}
   \label{grobe_netz_struktur}
 \end{figure} 
 
-Die Netzstruktur, welche für die prädiktion einer 3D Bounding-Box verwendet wird orientiert sich sehr stark an dem sogenannten YOLO Netz. Die ersten Schichten des Netzes bestehen aus \textit{convolutional layern}, welche die Aufgabe haben Features aus dem Bild zu extrahieren. Die hintere Schicht des Netzes besteht aus  \textit{fully connected layern}, welche die Koordinaten der Bounding-Box Punkte sowie die Klassenzugehörigkeit  ausgeben \cite{Redmon2016}. \\Die YOLO Netzarchitektur muss jedoch für die Prädiktion einer projizierten 3D Bounding-Box angepasst werden. Diese besitzt im gegensatz zu einer 2D Bounding-Box 8 anstatt 2 erforderlichen Bildpunkten. Eine Vergleich einer 2D und einer 3D Bounding-Box ist in Abbildung \ref{3D_Bounding_roboter} aufgezeigt. Aus den 8 Punkten ergeben sich 16 Koordinaten. Zu den 16 Koordinaten kommt eine weitere Angabe über die Klasse des Objekts. Diese Angabe wird nur deshalb implementiert, um das Netz modularer und skalierbarer zu  machen. In dem hier behandelten Fall gibt es allerdings nur die eine Klasse namens \textit{Roboter}. in Abbildung \ref{grobe_netz_struktur} ist eine grobe Darstellung des implementierten Netzes als Blackbox dargestellt. Zu sehen sind die 17 Ausgänge, welche aus 16 Koordinaten für die Punkte der 3D Bounding-Box, sowie der Klassenzugehörigkeit bestehen.
+Die Netzstruktur, welche für die Prädiktion einer 3D-Bounding-Box verwendet wird orientiert sich sehr stark an dem sogenannten YOLO Netz. Die ersten Schichten des Netzes bestehen aus \textit{Convolutional Layern}, welche die Aufgabe haben, Features aus dem Bild zu extrahieren. Die hintere Schicht des Netzes besteht aus  \textit{Fully Connected Layern}, welche die Koordinaten der Bounding-Box Punkte sowie die Klassenzugehörigkeit  ausgeben \cite{Redmon2016}. \\Die YOLO Netzarchitektur muss jedoch für die Prädiktion einer projizierten 3D Bounding-Box angepasst werden. Diese besitzt im Gegensatz zu einer 2D-Bounding-Box 8 anstatt 2 erforderlichen X/Y-Bildpunkten. Ein Vergleich einer 2D und einer 3D-Bounding-Box ist in Abbildung \ref{3D_Bounding_roboter} dargestellt. Aus den 8 Punkten ergeben sich 16 Koordinaten. Zu den 16 Koordinaten kommt ein weiterer Parameter, welcher die Klasse eines Objektes angibt. Diese Angabe wird implementiert, um das Netz modular und skalierbar zu halten, ist jedoch für die Lösung dieser Problemstellung nicht zwingend notwendig, da es nur die eine Klasse \textit{Roboter} gibt. In Abbildung \ref{grobe_netz_struktur} ist eine vereinfachte Darstellung des implementierten Netzes als Blackbox aufgezeigt. Zu sehen sind die 17 Ausgänge, welche aus 16 Koordinaten für die Punkte der 3D-Bounding-Box, sowie der Klassenzugehörigkeit bestehen.
 
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=6.8cm]{Abb/3d_robotter_mit_boundig_box_2d_vs_3d.PNG}
-  \caption{3D Bounding-Box mit 8 Punkten \textcolor{red}{(rot)} und im Vergleich dazu eine 2D Bounding-Box mit 2 Punkten \textcolor{blue}{(blau)} }
+  \caption{3D-Bounding-Box mit 8 Punkten \textcolor{red}{(rot)} und im Vergleich dazu eine 2D-Bounding-Box mit 2 Punkten \textcolor{blue}{(blau)} }
   \label{3D_Bounding_roboter}
 \end{figure} 
 
 \newpage
 \subsection{Training}
-Für das Training wird ein gelabelter Datensatz verwendet, welcher vom Institut für eingebettete Systeme und Medizintechnik der Hochschule Mannheim bereitgestellt wird. Es liegen insgesamt 2000 gelabelte Samples vor, von denen 90\% für das Training und 10\% für die Validierung verwendet werden. Alle weiteren Trainingsparameter sind Tabelle \ref{trainings_param} zu entnehmen.\\
+Für das Training wird ein synthetischer vorgelabelter Datensatz verwendet, welcher vom Institut für eingebettete Systeme und Medizintechnik der Hochschule Mannheim bereitgestellt wird. Es liegen insgesamt 2000 gelabelte Samples vor, von denen 90\% für das Training und 10\% für die Validierung verwendet werden. Alle weiteren Trainingsparameter sind Tabelle \ref{trainings_param} zu entnehmen. Diese optimalen Hyperparameter wurden dabei in mehreren Trainingsexperimenten empirisch ermittelt.\\
 
 \begin{table}[!htb]
 
@@ -67,11 +67,11 @@ Learning Rate               & 0,0001 \\
 Loss Function               & MSE (siehe \ref{Loss_ber})   
 \end{tabular}
 \end{table}
-Auf einer NVIDIA GTX9600M Grafikkarte mit mit einer \textit{NVIDIA Compute Capability} von 5, benötigt das Training des Netzwerks mit den in Tabelle \ref{trainings_param} beschriebenen Parameter lediglich 25 Minuten. Diese relativ geringe Trainingszeit ist auf die Effektivität der YOLO Netzstruktur zurückzuführen.   
-\subsection{Softwaremodul Beschreibung}
-Für die Realisierung eines Netzwerkes zu Bestimmung einer 3D Bounding-Box werden einige Softwaremodule implementiert. Im folgenden werden diese Module beschrieben. 
+Auf einer NVIDIA GTX960M Grafikkarte mit einer \textit{NVIDIA Compute Capability} von 5, dauert das Training des Netzwerks mit den in Tabelle \ref{trainings_param} beschriebenen Parametern lediglich 25 Minuten. Diese relativ geringe Trainingszeit ist auf die hohe Performanz der YOLO Netzstruktur zurückzuführen.   
+\subsection{Beschreibung der Softwaremodule}
+Für die Realisierung eines Netzwerkes zur 3D-Bounding-Box-Schätzung werden mehrere Softwaremodule implementiert und Im Folgenden beschrieben. 
 \subsubsection{Laden der Daten}
-Das laden der Trainingsdaten wird durch eine eigens dafür entwickelte klasse Implementiert. Die Bilder liegen im .png Format und die Labls im .json Format vor. Die Klasse lädt diese Daten, teilt diese in Trainings- und Testdaten auf und gibt die Daten als \textit{numpy arrays} zurück, sodass diese direkt für das Training verwendet werden können. In Abbildung \ref{UML_load} ist das zu der Klasse gehörige UML Diagramm mit allen Methoden aufgezeigt.
+Das Laden der Trainingsdaten wird durch eine eigens dafür entwickelte Klasse realisiert. Die Bilder liegen im .png Format und die Labels im .json Format vor. Die Klasse lädt diese Daten, teilt diese in Trainings- und Testdaten auf und gibt die Daten als \textit{numpy arrays} zurück, sodass diese direkt für das Training verwendet werden können. In Abbildung \ref{UML_load} ist das zu der Klasse gehörige UML Diagramm mit allen Methoden dargestellt.
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=7.8cm]{Abb/ULM_class_loadData.PNG}
@@ -79,11 +79,11 @@ Das laden der Trainingsdaten wird durch eine eigens dafür entwickelte klasse Im
   \label{UML_load}
 \end{figure} 
 \subsubsection{Objekt Lokalisierung}
-in der Klasse \textit{ObjectLocalizer3D} befindet sich der für das Neuronale Netz relevante Programmcode. Hier wird unter anderem das Netz erzeugt, die Loss Funktion definiert, sowie eine Metrik geschrieben. Die Klasse ist abgeleitet von der \textit{Keras functional API}. Die Klasse besitzt auch Methoden, wie fit, welche direkt auf die zu der \textit{Keras functional API} zugehörige fit Methode zugreift. Ebenfalls ist es möglich die Trainierten Modelle zu speichern oder diese zu Laden. In Abbildung \ref{UML_localizer} ist ein UML Diagramm der Klasse dargestellt.  
+In der Klasse \textit{ObjectLocalizer3D} befindet sich der für die Objekterkennung und Bounding-Box-Schätzung relevante Programmcode. Hier wird unter anderem das Netz erzeugt und die Loss-Funktion definiert. Die Klasse ist abgeleitet von der \textit{Keras functional API}. In dieser Klasse werden auch vorimplementierte Methoden der \textit{Keras functional API} aufgerufen oder überladen. Ein Beispiel dafür ist die \textit{fit}-Funktion. Ebenfalls ist es möglich die trainierten Modelle zu speichern und diese wieder zu laden. In Abbildung \ref{UML_localizer} wird ein UML-Klassendiagramm des \textit{ObjectLocalizer3D} dargestellt.  
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=14.2cm]{Abb/ULM_class_objectLocalizer.PNG}
-  \caption{UML Diagramm der Klasse ObjectLocalizer3D, welche von der \textit{Keras functional API} abgeleitet ist}
+  \caption{UML Diagramm der Klasse ObjectLocalizer3D (abgeleitet von \textit{Keras Functional API})}
   \label{UML_localizer}
 \end{figure} 
 
